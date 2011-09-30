@@ -1,0 +1,9 @@
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\bin\Debug\MindHarbor.URLRewriter.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\bin\Debug\MindHarbor.URLRewriter.pdb
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\obj\Debug\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\obj\Debug\MindHarbor.URLRewriter.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\obj\Debug\MindHarbor.URLRewriter.pdb
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\bin\Release\MindHarbor.URLRewriter.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\obj\Release\MindHarbor.URLRewriter.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\bin\MindHarbor.URLRewriter.dll

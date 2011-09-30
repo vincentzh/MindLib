@@ -1,0 +1,14 @@
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\MindHarbor.MessageBoard.Test.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\MindHarbor.MessageBoard.Test.pdb
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\MindHarbor.MessageBoard.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\nunit.core.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\nunit.framework.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\Iesi.Collections.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\log4net.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\Iesi.Collections.xml
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\MindHarbor.MessageBoard.pdb
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\nunit.framework.xml
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\bin\Debug\log4net.xml
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\obj\Debug\ResolveAssemblyReference.cache
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\obj\Debug\MindHarbor.MessageBoard.Test.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MessageBoard.Test\obj\Debug\MindHarbor.MessageBoard.Test.pdb

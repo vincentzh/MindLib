@@ -1,0 +1,17 @@
+D:\OpenSource\MindLib\trunk\MindLib\bin\MindHarbor.LogAdaptor.dll
+D:\OpenSource\MindLib\trunk\MindLib\bin\MindHarbor.LogAdaptor.pdb
+D:\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Release\ResolveAssemblyReference.cache
+D:\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Release\MindHarbor.LogAdaptor.dll
+D:\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Release\MindHarbor.LogAdaptor.pdb
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\bin\MindHarbor.LogAdaptor.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\bin\MindHarbor.LogAdaptor.pdb
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Release\MindHarbor.LogAdaptor.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Release\MindHarbor.LogAdaptor.pdb
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Debug\ResolveAssemblyReference.cache
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\bin\Debug\MindHarbor.LogAdaptor.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\bin\Debug\MindHarbor.LogAdaptor.pdb
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\bin\Debug\log4net.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\bin\Debug\log4net.xml
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Debug\MindHarbor.LogAdaptor.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\LogAdaptor\obj\Debug\MindHarbor.LogAdaptor.pdb

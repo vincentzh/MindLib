@@ -9,9 +9,13 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UrlRewriter.aspx?id=3">test Lindk</asp:HyperLink>
-        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/UrlRewriter_aspx_id_EQ_1.aspx">test Lindk2</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UrlRewriter.aspx?id=3&Name=test">test Lindk</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/1-test.aspx">test Lindk2</asp:HyperLink>
     
+    </div>
+    <div>
+    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/UrlRewriter.aspx?id=3">test Lindk</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/1.aspx">test Lindk2</asp:HyperLink>
     </div>
     </form>
 </body>

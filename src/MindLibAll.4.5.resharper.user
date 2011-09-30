@@ -1,0 +1,67 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4D93639B-6B2C-4CB3-9095-26F5EED26785/f:LogAdaptor.cs" caret="28" fromTop="1" />
+      <File id="37EC7A12-25DA-4FC2-87FF-F8585AE2BBFE/d:ObjectReport/f:ObjectReporter.cs" caret="2356" fromTop="19" />
+      <File id="41B7AC24-249C-4830-BE7D-275767996B34/d:Properties/f:AssemblyInfo.cs" caret="697" fromTop="16" />
+      <File id="8D2C0714-CFA0-421B-917F-34AF0AB445BC/d:Properties/f:AssemblyInfo.cs" caret="687" fromTop="16" />
+      <File id="659622A9-DADA-4967-949A-EF7BA47E968A/d:Properties/f:AssemblyInfo.cs" caret="655" fromTop="16" />
+      <File id="4D93639B-6B2C-4CB3-9095-26F5EED26785/d:Properties/f:AssemblyInfo.cs" caret="601" fromTop="12" />
+      <File id="546584F8-2372-4690-BA5E-F2E4D3809036/d:Properties/f:AssemblyInfo.cs" caret="647" fromTop="16" />
+      <File id="FEB03066-27FE-4054-B08E-403B754A0178/d:Properties/f:AssemblyInfo.cs" caret="692" fromTop="16" />
+      <File id="C91C3C76-2C61-4FD0-A723-47765900E5A0/d:Properties/f:AssemblyInfo.cs" caret="725" fromTop="17" />
+      <File id="37EC7A12-25DA-4FC2-87FF-F8585AE2BBFE/f:AssemblyInfo.cs" caret="576" fromTop="17" />
+      <File id="35DFBE00-CA4C-4F7A-82A3-517FE840848D/d:Properties/f:AssemblyInfo.cs" caret="645" fromTop="16" />
+      <File id="8E08B70C-95BA-40BE-B47C-A55A1BA90B37/d:Properties/f:AssemblyInfo.cs" caret="669" fromTop="16" />
+      <File id="C81B6CDD-54A3-4CEB-97DD-1C4357A68D07/d:Properties/f:AssemblyInfo.cs" caret="407" fromTop="9" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/f:CheckBoxListSelectAllCheckBox.cs" caret="521" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/f:PostBackEventListener.cs" caret="0" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/f:PageMenuGroup.cs" caret="0" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/f:PageMenu.cs" caret="0" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/f:MsgBox.cs" caret="363" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/d:MiscUtil/f:ErrorHandlerHTTPModule.cs" caret="0" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/d:MiscUtil/f:ExcelExportUtil.cs" caret="0" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/d:MiscUtil/f:RequestParameter.cs" caret="0" fromTop="0" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/d:MiscUtil/f:ValidationUtil.cs" caret="0" fromTop="0" />
+      <File id="41B7AC24-249C-4830-BE7D-275767996B34/f:ICreditCardInfo.cs" caret="389" fromTop="17" />
+      <File id="37EC7A12-25DA-4FC2-87FF-F8585AE2BBFE/d:ProgressTracking/f:ProgressTracker.cs" caret="0" fromTop="0" />
+      <File id="659622A9-DADA-4967-949A-EF7BA47E968A/f:AsynchronizedProcessTask.cs" caret="0" fromTop="0" />
+      <File id="C81B6CDD-54A3-4CEB-97DD-1C4357A68D07/f:AsynchronizedTaskWithProgressTracker.cs" caret="1251" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="41B7AC24-249C-4830-BE7D-275767996B34/d:Properties/f:AssemblyInfo.cs" caret="697" fromTop="16" />
+      <File id="8D2C0714-CFA0-421B-917F-34AF0AB445BC/d:Properties/f:AssemblyInfo.cs" caret="687" fromTop="16" />
+      <File id="659622A9-DADA-4967-949A-EF7BA47E968A/d:Properties/f:AssemblyInfo.cs" caret="655" fromTop="16" />
+      <File id="4D93639B-6B2C-4CB3-9095-26F5EED26785/d:Properties/f:AssemblyInfo.cs" caret="1421" fromTop="15" />
+      <File id="4D93639B-6B2C-4CB3-9095-26F5EED26785/d:Properties/f:AssemblyInfo.cs" caret="601" fromTop="12" />
+      <File id="546584F8-2372-4690-BA5E-F2E4D3809036/d:Properties/f:AssemblyInfo.cs" caret="647" fromTop="16" />
+      <File id="FEB03066-27FE-4054-B08E-403B754A0178/d:Properties/f:AssemblyInfo.cs" caret="692" fromTop="16" />
+      <File id="C91C3C76-2C61-4FD0-A723-47765900E5A0/d:Properties/f:AssemblyInfo.cs" caret="725" fromTop="17" />
+      <File id="37EC7A12-25DA-4FC2-87FF-F8585AE2BBFE/f:AssemblyInfo.cs" caret="576" fromTop="17" />
+      <File id="35DFBE00-CA4C-4F7A-82A3-517FE840848D/d:Properties/f:AssemblyInfo.cs" caret="645" fromTop="16" />
+      <File id="5424D080-E4DD-4EA9-97F0-5BA44272E79C/f:AssemblyInfo.cs" caret="576" fromTop="17" />
+      <File id="8E08B70C-95BA-40BE-B47C-A55A1BA90B37/d:Properties/f:AssemblyInfo.cs" caret="669" fromTop="16" />
+      <File id="C81B6CDD-54A3-4CEB-97DD-1C4357A68D07/d:Properties/f:AssemblyInfo.cs" caret="706" fromTop="16" />
+      <File id="41B7AC24-249C-4830-BE7D-275767996B34/f:ICreditCardInfo.cs" caret="238" fromTop="10" />
+      <File id="41B7AC24-249C-4830-BE7D-275767996B34/f:ICreditCardInfo.cs" caret="389" fromTop="17" />
+      <File id="C81B6CDD-54A3-4CEB-97DD-1C4357A68D07/f:AsynchronizedTaskWithProgressTracker.cs" caret="1251" fromTop="25" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

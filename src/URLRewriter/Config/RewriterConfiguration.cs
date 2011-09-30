@@ -79,7 +79,7 @@ namespace MindHarbor.URLRewriter.Config
 		public static RewriterConfiguration GetConfig()
 		{
             if (HttpContext.Current.Cache["URLRewriter"] == null)
-                HttpContext.Current.Cache.Insert("URLRewriter", ConfigurationSettings.GetConfig("URLRewriter"));
+                HttpContext.Current.Cache.Insert("URLRewriter",ConfigurationManager.GetSection("URLRewriter"));
 
             return (RewriterConfiguration)HttpContext.Current.Cache["URLRewriter"];
 		}

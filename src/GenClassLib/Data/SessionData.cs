@@ -11,7 +11,7 @@ namespace MindHarbor.GenClassLib.Data
 	/// This storage wrapper can be used as static field and store data in Session, it's key safe and it can be used outside of the HttpContext
 	/// </summary>
 	/// <typeparam name="T"></typeparam>
-	public class SessionData<T>
+	public class SessionData<T>:IRequiresSessionState
 	{
 		[ThreadStatic]
 		private static IDictionary context;

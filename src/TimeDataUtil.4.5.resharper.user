@@ -1,0 +1,25 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="82105587-E212-4048-AAE2-FBCB33608883/f:TimeDataUtilUserTypeTests.cs" caret="263" fromTop="9" />
+      <File id="82105587-E212-4048-AAE2-FBCB33608883/f:MockPersistantCalss.hbm.xml" caret="0" fromTop="0" />
+      <File id="82105587-E212-4048-AAE2-FBCB33608883/f:App.config" caret="2149" fromTop="29" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="82105587-E212-4048-AAE2-FBCB33608883/f:App.config" caret="2149" fromTop="29" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

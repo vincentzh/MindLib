@@ -57,7 +57,7 @@
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DocumentationFile>
     </DocumentationFile>
     <DebugSymbols>false</DebugSymbols>
@@ -86,6 +86,9 @@
     <Reference Include="System.XML">
       <Name>System.XML</Name>
     </Reference>
+	<Reference Include="System.Configuration">
+	  <Name>System.Configuration</Name>
+	</Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs">

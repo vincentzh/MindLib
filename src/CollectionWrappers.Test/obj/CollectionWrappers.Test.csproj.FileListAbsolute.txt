@@ -1,0 +1,12 @@
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\MindHarbor.CollectionWrappers.Test.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\MindHarbor.CollectionWrappers.Test.pdb
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\MindHarbor.CollectionWrappers.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\nunit.core.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\nunit.framework.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\Iesi.Collections.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\Iesi.Collections.xml
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\nunit.framework.xml
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\bin\Debug\MindHarbor.CollectionWrappers.pdb
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\obj\Debug\ResolveAssemblyReference.cache
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\obj\Debug\MindHarbor.CollectionWrappers.Test.dll
+d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers.Test\obj\Debug\MindHarbor.CollectionWrappers.Test.pdb

@@ -1,0 +1,7 @@
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib.Test.MockDomain\bin\Debug\MindHarbor.GenControlLib.Test.MockDomain.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib.Test.MockDomain\bin\Debug\MindHarbor.GenControlLib.Test.MockDomain.pdb
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib.Test.MockDomain\bin\Debug\MindHarbor.GenlInterfaces.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib.Test.MockDomain\bin\Debug\MindHarbor.GenlInterfaces.pdb
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib.Test.MockDomain\obj\Debug\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib.Test.MockDomain\obj\Debug\MindHarbor.GenControlLib.Test.MockDomain.dll
+D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib.Test.MockDomain\obj\Debug\MindHarbor.GenControlLib.Test.MockDomain.pdb

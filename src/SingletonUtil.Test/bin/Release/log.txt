@@ -1,0 +1,462 @@
+2009-11-21 01:55:42,437 [7] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - NHibernate 2.1.1.4000 (2.1.1.4000)
+2009-11-21 01:55:43,203 [7] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Bytecode provider name : lcg
+2009-11-21 01:55:43,203 [7] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Using reflection optimizer
+2009-11-21 01:55:43,218 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - Mapping resource: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton.hbm.xml
+2009-11-21 01:55:43,562 [7] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2005Dialect
+2009-11-21 01:55:46,109 [7] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton -> MockWithSingleton
+2009-11-21 01:55:46,156 [7] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: Id -> Id, type: Int32
+2009-11-21 01:55:46,218 [7] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: Strategy -> stragey, type: SingletonUserType
+2009-11-21 01:55:46,234 [7] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2005Dialect
+2009-11-21 01:55:46,250 [7] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2005Dialect
+2009-11-21 01:55:46,250 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2009-11-21 01:55:46,250 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2009-11-21 01:55:46,250 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2009-11-21 01:55:46,250 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2009-11-21 01:55:46,265 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2009-11-21 01:55:46,281 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2009-11-21 01:55:46,281 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2009-11-21 01:55:46,281 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2009-11-21 01:55:46,281 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2009-11-21 01:55:46,281 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2009-11-21 01:55:46,312 [7] INFO  NHibernate.Connection.ConnectionProviderFactory [(null)] <(null)> - Initializing connection provider: NHibernate.Test.DebugConnectionProvider, MindHarbor.SingletonUtil.Test
+2009-11-21 01:55:46,312 [7] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2009-11-21 01:55:46,312 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:46,734 [7] DEBUG NHibernate.Tool.hbm2ddl.SchemaExport [(null)] <(null)> - 
+    if exists (select * from dbo.sysobjects where id = object_id(N'dbo.MockWithSingleton') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table dbo.MockWithSingleton
+2009-11-21 01:55:46,750 [7] DEBUG NHibernate.Tool.hbm2ddl.SchemaExport [(null)] <(null)> - 
+    create table dbo.MockWithSingleton (
+        Id INT IDENTITY NOT NULL,
+       stragey NVARCHAR(255) null,
+       primary key (Id)
+    )
+2009-11-21 01:55:46,765 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:46,781 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Disposing of ConnectionProvider.
+2009-11-21 01:55:46,812 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2009-11-21 01:55:46,812 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2009-11-21 01:55:46,812 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2009-11-21 01:55:46,812 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2009-11-21 01:55:46,812 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2005Dialect
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory [(null)] <(null)> - Using dialect defined converter
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Generate SQL with comments: disabled
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Connection.ConnectionProviderFactory [(null)] <(null)> - Initializing connection provider: NHibernate.Test.DebugConnectionProvider, MindHarbor.SingletonUtil.Test
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Optimize cache for minimal puts: False
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Connection release mode: auto
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default batch fetch size: 1
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Statistics: disabled
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Deleted entity synthetic identifier rollback: disabled
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - cache provider: NHibernate.Cache.HashtableCacheProvider, NHibernate
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - query cache factory: NHibernate.Cache.StandardQueryCacheFactory
+2009-11-21 01:55:46,828 [7] DEBUG NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Wrap result sets: disabled
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Using Isolation Level: ReadCommitted
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default entity-mode: Poco
+2009-11-21 01:55:46,828 [7] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Named query checking : enabled
+2009-11-21 01:55:46,859 [7] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - building session factory
+2009-11-21 01:55:46,859 [7] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Session factory constructed with filter configurations : {}
+2009-11-21 01:55:46,859 [7] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'bytecode.provider'='lcg', 'connection.provider'='NHibernate.Test.DebugConnectionProvider, MindHarbor.SingletonUtil.Test', 'connection.isolation'='ReadCommitted', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'dialect'='NHibernate.Dialect.MsSql2005Dialect', 'connection.connection_string'='Server=(local);initial catalog=mindlib;Integrated Security=SSPI', 'query.substitutions'='true 1, false 0, yes 'Y', no 'N'', 'adonet.batch_size'='10', 'prepare_sql'='false', 'cache.provider_class'='NHibernate.Cache.HashtableCacheProvider, NHibernate', 'cache.use_query_cache'='true', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-11-21 01:55:46,875 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:47,203 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:47,203 [7] DEBUG NHibernate.Cache.CacheFactory [(null)] <(null)> - cache for: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton usage strategy: nonstrict-read-write
+2009-11-21 01:55:47,312 [7] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer [(null)] <(null)> - No custom accessors found for entity: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton
+2009-11-21 01:55:47,328 [7] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer [(null)] <(null)> - No custom accessors found for entity: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton
+2009-11-21 01:55:47,343 [7] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer [(null)] <(null)> - Create Instantiator using optimizer for:MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton
+2009-11-21 01:55:47,453 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Static SQL for entity: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton
+2009-11-21 01:55:47,453 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Version select: SELECT Id FROM dbo.MockWithSingleton WHERE Id = ?
+2009-11-21 01:55:47,453 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Snapshot select: SELECT mockpersis_.Id, mockpersis_.stragey as stragey0_ FROM dbo.MockWithSingleton mockpersis_ WHERE mockpersis_.Id=?
+2009-11-21 01:55:47,453 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Insert 0: INSERT INTO dbo.MockWithSingleton (stragey, Id) VALUES (?, ?)
+2009-11-21 01:55:47,453 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Update 0: UPDATE dbo.MockWithSingleton SET stragey = ? WHERE Id = ?
+2009-11-21 01:55:47,453 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Delete 0: DELETE FROM dbo.MockWithSingleton WHERE Id = ?
+2009-11-21 01:55:47,453 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Identity insert: INSERT INTO dbo.MockWithSingleton (stragey) VALUES (?); select SCOPE_IDENTITY()
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ with (updlock, rowlock) WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ with (updlock, rowlock) WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ with (updlock, rowlock) WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - initializing class SessionFactoryObjectFactory
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - registered: cfef09b92ea1464182afde8efa820fa2(unnamed)
+2009-11-21 01:55:47,500 [7] INFO  NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - no name configured
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Instantiated session factory
+2009-11-21 01:55:47,500 [7] INFO  NHibernate.Cache.UpdateTimestampsCache [(null)] <(null)> - starting update timestamps cache at region: UpdateTimestampsCache
+2009-11-21 01:55:47,500 [7] INFO  NHibernate.Cache.StandardQueryCache [(null)] <(null)> - starting query cache at region: NHibernate.Cache.StandardQueryCache
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Checking 0 named HQL queries
+2009-11-21 01:55:47,500 [7] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Checking 0 named SQL queries
+2009-11-21 01:55:47,546 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=afe6fb07-d7ab-4dfd-91a4-bde335c3cd51] opened session at timestamp: 5155915970621440, for session factory: [/cfef09b92ea1464182afde8efa820fa2]
+2009-11-21 01:55:47,578 [7] DEBUG NHibernate.Event.Default.DefaultSaveOrUpdateEventListener [(null)] <(null)> - saving transient instance
+2009-11-21 01:55:47,578 [7] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - saving [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#<null>]
+2009-11-21 01:55:47,578 [7] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - executing insertions
+2009-11-21 01:55:47,593 [7] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - executing identity-insert immediately
+2009-11-21 01:55:47,625 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Inserting entity: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton (native id)
+2009-11-21 01:55:47,640 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:47,640 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: INSERT INTO dbo.MockWithSingleton (stragey) VALUES (?); select SCOPE_IDENTITY()
+2009-11-21 01:55:47,640 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Dehydrating entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#<null>]
+2009-11-21 01:55:47,640 [7] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test' to parameter: 0
+2009-11-21 01:55:47,656 [7] DEBUG NHibernate.SQL [(null)] <(null)> - INSERT INTO dbo.MockWithSingleton (stragey) VALUES (@p0); select SCOPE_IDENTITY();@p0 = 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test'
+2009-11-21 01:55:47,656 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:47,734 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteReader took 77 ms
+2009-11-21 01:55:47,750 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened IDataReader, open IDataReaders: 1
+2009-11-21 01:55:47,765 [7] DEBUG NHibernate.Type.Int32Type [(null)] <(null)> - returning '1' as column: 
+2009-11-21 01:55:47,765 [7] DEBUG NHibernate.Id.IdentifierGeneratorFactory [(null)] <(null)> - Natively generated identity: 1
+2009-11-21 01:55:47,765 [7] DEBUG NHibernate.Driver.NHybridDataReader [(null)] <(null)> - running NHybridDataReader.Dispose()
+2009-11-21 01:55:47,781 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDataReader, open IDataReaders :0
+2009-11-21 01:55:47,781 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - DataReader was closed after 123 ms
+2009-11-21 01:55:47,781 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:47,781 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:47,781 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:47,796 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - flushing session
+2009-11-21 01:55:47,796 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - processing flush-time cascades
+2009-11-21 01:55:47,796 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - dirty checking collections
+2009-11-21 01:55:47,796 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushing entities and processing referenced collections
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Processing unreferenced collections
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Scheduling collection removes/(re)creates/updates
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - listing entities:
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton{'Id'='1', 'Strategy'='MindHarbor.SingletonUtil.Test.StrategyA'}
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - executing flush
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush begin
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush end
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:47,812 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - post flush
+2009-11-21 01:55:47,828 [7] DEBUG NHibernate.Event.Default.DefaultLoadEventListener [(null)] <(null)> - loading entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,828 [7] DEBUG NHibernate.Event.Default.DefaultLoadEventListener [(null)] <(null)> - attempting to resolve: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,828 [7] DEBUG NHibernate.Cache.NonstrictReadWriteCache [(null)] <(null)> - Cache lookup: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1
+2009-11-21 01:55:47,828 [7] DEBUG NHibernate.Cache.NonstrictReadWriteCache [(null)] <(null)> - Cache miss
+2009-11-21 01:55:47,828 [7] DEBUG NHibernate.Event.Default.DefaultLoadEventListener [(null)] <(null)> - object not resolved in any cache: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,828 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Fetching entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,843 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - loading entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ WHERE mockpersis0_.Id=?
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.Engine.QueryParameters [(null)] <(null)> - BindParameters(Named:NHibernate.Type.Int32Type) 1 -> [0]
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.Type.Int32Type [(null)] <(null)> - binding '1' to parameter: 0
+2009-11-21 01:55:47,859 [7] INFO  NHibernate.Loader.Loader [(null)] <(null)> - SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ WHERE mockpersis0_.Id=@p0
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.SQL [(null)] <(null)> - SELECT mockpersis0_.Id as Id0_0_, mockpersis0_.stragey as stragey0_0_ FROM dbo.MockWithSingleton mockpersis0_ WHERE mockpersis0_.Id=@p0;@p0 = 1
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteReader took 3 ms
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened IDataReader, open IDataReaders: 1
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - processing result set
+2009-11-21 01:55:47,859 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - result set row: 0
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - result row: EntityKey[MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - Initializing object from DataReader: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Hydrating entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.Type.StringType [(null)] <(null)> - returning 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test' as column: stragey0_0_
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - done processing result set (1 rows)
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.Driver.NHybridDataReader [(null)] <(null)> - running NHybridDataReader.Dispose()
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDataReader, open IDataReaders :0
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - DataReader was closed after 21 ms
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:47,875 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - total objects hydrated: 1
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Engine.TwoPhaseLoad [(null)] <(null)> - resolving associations for [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Engine.TwoPhaseLoad [(null)] <(null)> - adding entity to second-level cache: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Cache.NonstrictReadWriteCache [(null)] <(null)> - Caching: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Engine.TwoPhaseLoad [(null)] <(null)> - done materializing entity [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Engine.StatefulPersistenceContext [(null)] <(null)> - initializing non-lazy collections
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - done entity load
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - after autocommit
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - transaction completion
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:47,890 [7] DEBUG NHibernate.Cache.UpdateTimestampsCache [(null)] <(null)> - Invalidating space [dbo.MockWithSingleton]
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - flushing session
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - processing flush-time cascades
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - dirty checking collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushing entities and processing referenced collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Processing unreferenced collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Scheduling collection removes/(re)creates/updates
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - listing entities:
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton{'Id'='1', 'Strategy'='MindHarbor.SingletonUtil.Test.StrategyA'}
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - executing flush
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush begin
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush end
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - post flush
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.DefaultDeleteEventListener [(null)] <(null)> - entity was not persistent in delete processing
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Engine.IdentifierValue [(null)] <(null)> - unsaved-value: 0
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.DefaultDeleteEventListener [(null)] <(null)> - deleting [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Get
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Normal
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Get
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Normal
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - flushing session
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - processing flush-time cascades
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - dirty checking collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushing entities and processing referenced collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Processing unreferenced collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Scheduling collection removes/(re)creates/updates
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - listing entities:
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton{'Id'='1', 'Strategy'='MindHarbor.SingletonUtil.Test.StrategyA'}
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - executing flush
+2009-11-21 01:55:47,906 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush begin
+2009-11-21 01:55:47,921 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Deleting entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1]
+2009-11-21 01:55:47,921 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:47,921 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: DELETE FROM dbo.MockWithSingleton WHERE Id = ?
+2009-11-21 01:55:47,921 [7] DEBUG NHibernate.Type.Int32Type [(null)] <(null)> - binding '1' to parameter: 0
+2009-11-21 01:55:47,921 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Adding to batch:DELETE FROM dbo.MockWithSingleton WHERE Id = @p0;@p0 = 1
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.Cache.NonstrictReadWriteCache [(null)] <(null)> - Invalidating: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#1
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Executing batch
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.SQL [(null)] <(null)> - Batch commands:
+command 0:DELETE FROM dbo.MockWithSingleton WHERE Id = @p0;@p0 = 1
+
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteBatch for 1 statements took 9 ms
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - skipping aggressive-release due to flush cycle
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush end
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - post flush
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - closing session
+2009-11-21 01:55:47,937 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - running BatcherImpl.Dispose(true)
+2009-11-21 01:55:47,953 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=79654926-dabd-451a-a45d-4a92c8cdfec8] opened session at timestamp: 5155915972415488, for session factory: [/cfef09b92ea1464182afde8efa820fa2]
+2009-11-21 01:55:47,953 [7] DEBUG NHibernate.Engine.Query.QueryPlanCache [(null)] <(null)> - unable to locate HQL query plan in cache; generating (from System.Object o)
+2009-11-21 01:55:48,093 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlParseEngine [(null)] <(null)> - parse() - HQL: from MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton o
+2009-11-21 01:55:48,156 [7] DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter [(null)] <(null)> - throwQueryException() : no errors
+2009-11-21 01:55:48,187 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - select << begin [level=1, statement=select]
+2009-11-21 01:55:48,203 [7] DEBUG NHibernate.Hql.Ast.ANTLR.Tree.FromElement [(null)] <(null)> - FromClause{level=1} :  MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton (o) -> mockpersis0_
+2009-11-21 01:55:48,203 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - select : finishing up [level=1, statement=select]
+2009-11-21 01:55:48,218 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - processQuery() : ( SELECT ( FromClause{level=1} dbo.MockWithSingleton mockpersis0_ ) )
+2009-11-21 01:55:48,234 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - Derived SELECT clause created.
+2009-11-21 01:55:48,250 [7] DEBUG NHibernate.Hql.Ast.ANTLR.Util.JoinProcessor [(null)] <(null)> - Using FROM fragment [dbo.MockWithSingleton mockpersis0_]
+2009-11-21 01:55:48,250 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - select >> end [level=1, statement=select]
+2009-11-21 01:55:48,250 [7] DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter [(null)] <(null)> - throwQueryException() : no errors
+2009-11-21 01:55:48,281 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlGenerator [(null)] <(null)> - SQL: select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_
+2009-11-21 01:55:48,281 [7] DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter [(null)] <(null)> - throwQueryException() : no errors
+2009-11-21 01:55:48,312 [7] DEBUG NHibernate.Engine.Query.HQLQueryPlan [(null)] <(null)> - HQL param location recognition took 0 mills (from System.Object o)
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Engine.Query.QueryPlanCache [(null)] <(null)> - located HQL query plan in cache (from System.Object o)
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Engine.Query.HQLQueryPlan [(null)] <(null)> - find: from System.Object o
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Engine.QueryParameters [(null)] <(null)> - named parameters: {}
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_
+2009-11-21 01:55:48,328 [7] INFO  NHibernate.Loader.Loader [(null)] <(null)> - select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.SQL [(null)] <(null)> - select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteReader took 1 ms
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened IDataReader, open IDataReaders: 1
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - processing result set
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - done processing result set (0 rows)
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Driver.NHybridDataReader [(null)] <(null)> - running NHybridDataReader.Dispose()
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDataReader, open IDataReaders :0
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - DataReader was closed after 2 ms
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - total objects hydrated: 0
+2009-11-21 01:55:48,328 [7] DEBUG NHibernate.Engine.StatefulPersistenceContext [(null)] <(null)> - initializing non-lazy collections
+2009-11-21 01:55:48,343 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - after autocommit
+2009-11-21 01:55:48,343 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - transaction completion
+2009-11-21 01:55:48,343 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,343 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=79654926-dabd-451a-a45d-4a92c8cdfec8] running ISession.Dispose()
+2009-11-21 01:55:48,343 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=79654926-dabd-451a-a45d-4a92c8cdfec8] executing real Dispose(True)
+2009-11-21 01:55:48,343 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - closing session
+2009-11-21 01:55:48,343 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - running BatcherImpl.Dispose(true)
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=67f40f70-1ccd-4658-9599-a79a7891675b] opened session at timestamp: 5155915974078464, for session factory: [/cfef09b92ea1464182afde8efa820fa2]
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.DefaultSaveOrUpdateEventListener [(null)] <(null)> - saving transient instance
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - saving [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#<null>]
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - executing insertions
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - executing identity-insert immediately
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Inserting entity: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton (native id)
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: INSERT INTO dbo.MockWithSingleton (stragey) VALUES (?); select SCOPE_IDENTITY()
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Dehydrating entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#<null>]
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test' to parameter: 0
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.SQL [(null)] <(null)> - INSERT INTO dbo.MockWithSingleton (stragey) VALUES (@p0); select SCOPE_IDENTITY();@p0 = 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test'
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteReader took 9 ms
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened IDataReader, open IDataReaders: 1
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Type.Int32Type [(null)] <(null)> - returning '2' as column: 
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Id.IdentifierGeneratorFactory [(null)] <(null)> - Natively generated identity: 2
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Driver.NHybridDataReader [(null)] <(null)> - running NHybridDataReader.Dispose()
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDataReader, open IDataReaders :0
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - DataReader was closed after 10 ms
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - flushing session
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - processing flush-time cascades
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - dirty checking collections
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushing entities and processing referenced collections
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Processing unreferenced collections
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Scheduling collection removes/(re)creates/updates
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - listing entities:
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton{'Id'='2', 'Strategy'='MindHarbor.SingletonUtil.Test.StrategyA'}
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - executing flush
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush begin
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush end
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - post flush
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Engine.Query.QueryPlanCache [(null)] <(null)> - unable to locate HQL query plan in cache; generating (from MockPersistantWithSingleton ms where ms.Strategy = :s)
+2009-11-21 01:55:48,359 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlParseEngine [(null)] <(null)> - parse() - HQL: from MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton ms where ms.Strategy = :s
+2009-11-21 01:55:48,406 [7] DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter [(null)] <(null)> - throwQueryException() : no errors
+2009-11-21 01:55:48,406 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - select << begin [level=1, statement=select]
+2009-11-21 01:55:48,406 [7] DEBUG NHibernate.Hql.Ast.ANTLR.Tree.FromElement [(null)] <(null)> - FromClause{level=1} :  MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton (ms) -> mockpersis0_
+2009-11-21 01:55:48,453 [7] DEBUG NHibernate.Hql.Ast.ANTLR.Tree.FromReferenceNode [(null)] <(null)> - Resolved :  ms -> mockpersis0_.Id
+2009-11-21 01:55:48,453 [7] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement [(null)] <(null)> - handling property dereference [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton (ms) -> Strategy (Class)]
+2009-11-21 01:55:48,453 [7] DEBUG NHibernate.Hql.Ast.ANTLR.Tree.DotNode [(null)] <(null)> - getDataType() : Strategy -> NHibernate.Type.CustomType
+2009-11-21 01:55:48,468 [7] DEBUG NHibernate.Hql.Ast.ANTLR.Tree.FromReferenceNode [(null)] <(null)> - Resolved :  ms.Strategy -> mockpersis0_.stragey
+2009-11-21 01:55:48,468 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - select : finishing up [level=1, statement=select]
+2009-11-21 01:55:48,468 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - processQuery() : ( SELECT ( FromClause{level=1} dbo.MockWithSingleton mockpersis0_ ) ( where ( = ( mockpersis0_.stragey mockpersis0_.Id Strategy ) ? ) ) )
+2009-11-21 01:55:48,468 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - Derived SELECT clause created.
+2009-11-21 01:55:48,468 [7] DEBUG NHibernate.Hql.Ast.ANTLR.Util.JoinProcessor [(null)] <(null)> - Using FROM fragment [dbo.MockWithSingleton mockpersis0_]
+2009-11-21 01:55:48,468 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlWalker [(null)] <(null)> - select >> end [level=1, statement=select]
+2009-11-21 01:55:48,468 [7] DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter [(null)] <(null)> - throwQueryException() : no errors
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Hql.Ast.ANTLR.HqlSqlGenerator [(null)] <(null)> - SQL: select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_ where mockpersis0_.stragey=?
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Hql.Ast.ANTLR.ErrorCounter [(null)] <(null)> - throwQueryException() : no errors
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Engine.Query.HQLQueryPlan [(null)] <(null)> - HQL param location recognition took 0 mills (from MockPersistantWithSingleton ms where ms.Strategy = :s)
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Engine.Query.QueryPlanCache [(null)] <(null)> - located HQL query plan in cache (from MockPersistantWithSingleton ms where ms.Strategy = :s)
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Engine.Query.HQLQueryPlan [(null)] <(null)> - find: from MockPersistantWithSingleton ms where ms.Strategy = :s
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Engine.QueryParameters [(null)] <(null)> - named parameters: {'s'='MindHarbor.SingletonUtil.Test.StrategyA'}
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_ where mockpersis0_.stragey=?
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Engine.QueryParameters [(null)] <(null)> - BindParameters(Named:NHibernate.Type.CustomType) MindHarbor.SingletonUtil.Test.StrategyA -> [0]
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test' to parameter: 0
+2009-11-21 01:55:48,484 [7] INFO  NHibernate.Loader.Loader [(null)] <(null)> - select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_ where mockpersis0_.stragey=@p0
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.SQL [(null)] <(null)> - select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_ where mockpersis0_.stragey=@p0;@p0 = 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test'
+2009-11-21 01:55:48,484 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteReader took 3 ms
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened IDataReader, open IDataReaders: 1
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - processing result set
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - result set row: 0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Type.Int32Type [(null)] <(null)> - returning '2' as column: Id0_
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - result row: EntityKey[MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - Initializing object from DataReader: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Hydrating entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Type.StringType [(null)] <(null)> - returning 'MindHarbor.SingletonUtil.Test.StrategyA,MindHarbor.SingletonUtil.Test' as column: stragey0_
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - done processing result set (1 rows)
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Driver.NHybridDataReader [(null)] <(null)> - running NHybridDataReader.Dispose()
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDataReader, open IDataReaders :0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - DataReader was closed after 6 ms
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - total objects hydrated: 1
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.TwoPhaseLoad [(null)] <(null)> - resolving associations for [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.TwoPhaseLoad [(null)] <(null)> - adding entity to second-level cache: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Cache.NonstrictReadWriteCache [(null)] <(null)> - Caching: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.TwoPhaseLoad [(null)] <(null)> - done materializing entity [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.StatefulPersistenceContext [(null)] <(null)> - initializing non-lazy collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - after autocommit
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - transaction completion
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Cache.UpdateTimestampsCache [(null)] <(null)> - Invalidating space [dbo.MockWithSingleton]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.DefaultLoadEventListener [(null)] <(null)> - loading entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.DefaultLoadEventListener [(null)] <(null)> - attempting to resolve: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.DefaultLoadEventListener [(null)] <(null)> - resolved object in session cache: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - after autocommit
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - transaction completion
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - flushing session
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - processing flush-time cascades
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - dirty checking collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushing entities and processing referenced collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Processing unreferenced collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Scheduling collection removes/(re)creates/updates
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - listing entities:
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton{'Id'='2', 'Strategy'='MindHarbor.SingletonUtil.Test.StrategyA'}
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - executing flush
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush begin
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush end
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - post flush
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.DefaultDeleteEventListener [(null)] <(null)> - entity was not persistent in delete processing
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.IdentifierValue [(null)] <(null)> - unsaved-value: 0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.DefaultDeleteEventListener [(null)] <(null)> - deleting [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Get
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Normal
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Get
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - setting cache mode to: Normal
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - flushing session
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - processing flush-time cascades
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - dirty checking collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushing entities and processing referenced collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Processing unreferenced collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Scheduling collection removes/(re)creates/updates
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - listing entities:
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.Printer [(null)] <(null)> - MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton{'Id'='2', 'Strategy'='MindHarbor.SingletonUtil.Test.StrategyA'}
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - executing flush
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush begin
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Deleting entity: [MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: DELETE FROM dbo.MockWithSingleton WHERE Id = ?
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Type.Int32Type [(null)] <(null)> - binding '2' to parameter: 0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Adding to batch:DELETE FROM dbo.MockWithSingleton WHERE Id = @p0;@p0 = 2
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Cache.NonstrictReadWriteCache [(null)] <(null)> - Invalidating: MindHarbor.SingletonUtil.Test.MockPersistantWithSingleton#2
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Executing batch
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.SQL [(null)] <(null)> - Batch commands:
+command 0:DELETE FROM dbo.MockWithSingleton WHERE Id = @p0;@p0 = 2
+
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteBatch for 1 statements took 1 ms
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - skipping aggressive-release due to flush cycle
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - registering flush end
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - post flush
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - closing session
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - running BatcherImpl.Dispose(true)
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=d165ba28-1e43-41f3-86ec-8ebfacae75d3] opened session at timestamp: 5155915974656002, for session factory: [/cfef09b92ea1464182afde8efa820fa2]
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.Query.QueryPlanCache [(null)] <(null)> - located HQL query plan in cache (from System.Object o)
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.Query.QueryPlanCache [(null)] <(null)> - located HQL query plan in cache (from System.Object o)
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.Query.HQLQueryPlan [(null)] <(null)> - find: from System.Object o
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.QueryParameters [(null)] <(null)> - named parameters: {}
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_
+2009-11-21 01:55:48,500 [7] INFO  NHibernate.Loader.Loader [(null)] <(null)> - select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.SQL [(null)] <(null)> - select mockpersis0_.Id as Id0_, mockpersis0_.stragey as stragey0_ from dbo.MockWithSingleton mockpersis0_
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteReader took 0 ms
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened IDataReader, open IDataReaders: 1
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - processing result set
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - done processing result set (0 rows)
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Driver.NHybridDataReader [(null)] <(null)> - running NHybridDataReader.Dispose()
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDataReader, open IDataReaders :0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - DataReader was closed after 0 ms
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Loader.Loader [(null)] <(null)> - total objects hydrated: 0
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Engine.StatefulPersistenceContext [(null)] <(null)> - initializing non-lazy collections
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - after autocommit
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - transaction completion
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=d165ba28-1e43-41f3-86ec-8ebfacae75d3] running ISession.Dispose()
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=d165ba28-1e43-41f3-86ec-8ebfacae75d3] executing real Dispose(True)
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - closing session
+2009-11-21 01:55:48,500 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - running BatcherImpl.Dispose(true)
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2005Dialect
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Connection.ConnectionProviderFactory [(null)] <(null)> - Initializing connection provider: NHibernate.Test.DebugConnectionProvider, MindHarbor.SingletonUtil.Test
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2009-11-21 01:55:48,515 [7] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2009-11-21 01:55:48,515 [7] DEBUG NHibernate.Tool.hbm2ddl.SchemaExport [(null)] <(null)> - 
+    if exists (select * from dbo.sysobjects where id = object_id(N'dbo.MockWithSingleton') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table dbo.MockWithSingleton
+2009-11-21 01:55:48,515 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2009-11-21 01:55:48,515 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Disposing of ConnectionProvider.
+2009-11-21 01:55:48,515 [7] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Closing
+2009-11-21 01:55:48,515 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Disposing of ConnectionProvider.
