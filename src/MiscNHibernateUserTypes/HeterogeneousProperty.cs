@@ -11,7 +11,7 @@ namespace MindHarbor.MiscNHibernateUserTypes {
 		private string name;
 		private string stringValue;
 		private Type valueType = typeof(string);
-        
+        public string StringValue{get { return stringValue; }}
         /// <summary>
         /// Gets and sets the value 
         /// </summary>

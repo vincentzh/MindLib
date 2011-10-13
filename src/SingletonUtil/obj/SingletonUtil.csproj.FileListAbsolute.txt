@@ -24,3 +24,9 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\SingletonUtil\obj\Debug\MindH
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\SingletonUtil\bin\Debug\Antlr3.Runtime.dll
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\SingletonUtil\bin\Debug\NHibernate.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\SingletonUtil\bin\Debug\Iesi.Collections.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.SingletonUtil.XML
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.SingletonUtil.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.SingletonUtil.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\SingletonUtil\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\SingletonUtil\obj\Release\MindHarbor.SingletonUtil.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\SingletonUtil\obj\Release\MindHarbor.SingletonUtil.pdb

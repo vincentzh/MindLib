@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenInterfaces", "GenInterfaces\GenInterfaces.csproj", "{41B7AC24-249C-4830-BE7D-275767996B34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenClassLib", "GenClassLib\GenClassLib.csproj", "{37EC7A12-25DA-4FC2-87FF-F8585AE2BBFE}"

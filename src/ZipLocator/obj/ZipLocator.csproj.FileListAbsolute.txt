@@ -19,3 +19,10 @@ d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ZipLocator\obj\Debug\MindHarb
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ZipLocator\obj\Debug\MindHarbor.ZipLocator.Resource.ZipCode.csv
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ZipLocator\obj\Debug\MindHarbor.ZipLocator.dll
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ZipLocator\obj\Debug\MindHarbor.ZipLocator.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.ZipLocator.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.ZipLocator.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ZipLocator\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ZipLocator\obj\Release\MindHarbor.ZipLocator.Resource.GenerateWhereInitialize_Create.sql
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ZipLocator\obj\Release\MindHarbor.ZipLocator.Resource.ZipCode.csv
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ZipLocator\obj\Release\MindHarbor.ZipLocator.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ZipLocator\obj\Release\MindHarbor.ZipLocator.pdb

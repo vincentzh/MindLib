@@ -34,7 +34,7 @@ namespace MindHarbor.ZipLocator
                         new StreamReader(GetType().Assembly.GetManifestResourceStream(resource));
                     string s = sr.ReadToEnd();
 
-                    string fullCSVFileName = Path.Combine(System.Environment.CurrentDirectory, "ZipCode.csv");
+                    string fullCSVFileName = Path.Combine(Environment.GetEnvironmentVariable("temp"), "ZipCode.csv");
                     using(StreamWriter sw=File.CreateText(fullCSVFileName))
                     {
                         sw.Write(s);

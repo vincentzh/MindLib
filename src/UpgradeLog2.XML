@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MindLibAllWithTests">
+</Property><Property Name="Solution File" Value="D:\SourceCode\OpenSource\GitStuff\MindLib\src\MindLibAllWithTests.sln">
+</Property><Property Name="Date" Value="Thursday, October 13, 2011">
+</Property><Property Name="Time" Value="16:05 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="GenInterfaces" Source="GenInterfaces\GenInterfaces.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="GenInterfaces" Source="GenInterfaces\GenInterfaces.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="GenClassLib" Source="GenClassLib\GenClassLib.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="GenClassLib" Source="GenClassLib\GenClassLib.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="GenControlLib" Source="GenControlLib\GenControlLib.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="GenControlLib" Source="GenControlLib\GenControlLib.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="CollectionWrappers" Source="CollectionWrappers\CollectionWrappers.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="CollectionWrappers" Source="CollectionWrappers\CollectionWrappers.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="SingletonUtil" Source="SingletonUtil\SingletonUtil.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="SingletonUtil" Source="SingletonUtil\SingletonUtil.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="ClassEnum" Source="ClassEnum\ClassEnum.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="ClassEnum" Source="ClassEnum\ClassEnum.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="TimeDataUtil" Source="TimeDataUtil\TimeDataUtil.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TimeDataUtil" Source="TimeDataUtil\TimeDataUtil.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="Scheduler" Source="Scheduler\Scheduler.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Scheduler" Source="Scheduler\Scheduler.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="MiscNHibernateUserTypes" Source="MiscNHibernateUserTypes\MiscNHibernateUserTypes.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="MiscNHibernateUserTypes" Source="MiscNHibernateUserTypes\MiscNHibernateUserTypes.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="1" Project="ClassEnum.Test" Source="ClassEnum.Test\ClassEnum.Test.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ClassEnum.Test" Source="ClassEnum.Test\ClassEnum.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ClassEnum.Test" Source="ClassEnum.Test\ClassEnum.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="CollectionWrappers.Test" Source="CollectionWrappers.Test\CollectionWrappers.Test.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="CollectionWrappers.Test" Source="CollectionWrappers.Test\CollectionWrappers.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CollectionWrappers.Test" Source="CollectionWrappers.Test\CollectionWrappers.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="GenClassLib.Test" Source="GenClassLib.Test\GenClassLib.Test.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="GenClassLib.Test" Source="GenClassLib.Test\GenClassLib.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GenClassLib.Test" Source="GenClassLib.Test\GenClassLib.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="MiscNHibernateUserTypes.Test" Source="MiscNHibernateUserTypes.Test\MiscNHibernateUserTypes.Test.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="MiscNHibernateUserTypes.Test" Source="MiscNHibernateUserTypes.Test\MiscNHibernateUserTypes.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MiscNHibernateUserTypes.Test" Source="MiscNHibernateUserTypes.Test\MiscNHibernateUserTypes.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="GenControlLib.Test.MockDomain" Source="GenControlLib.Test.MockDomain\GenControlLib.Test.MockDomain.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="GenControlLib.Test.MockDomain" Source="GenControlLib.Test.MockDomain\GenControlLib.Test.MockDomain.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GenControlLib.Test.MockDomain" Source="GenControlLib.Test.MockDomain\GenControlLib.Test.MockDomain.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Scheduler.Test" Source="Scheduler.Test\Scheduler.Test.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Scheduler.Test" Source="Scheduler.Test\Scheduler.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Scheduler.Test" Source="Scheduler.Test\Scheduler.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="SingletonUtil.Test" Source="SingletonUtil.Test\SingletonUtil.Test.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="SingletonUtil.Test" Source="SingletonUtil.Test\SingletonUtil.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SingletonUtil.Test" Source="SingletonUtil.Test\SingletonUtil.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="TimeDataUtil.Test" Source="TimeDataUtil.Test\TimeDataUtil.Test.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="TimeDataUtil.Test" Source="TimeDataUtil.Test\TimeDataUtil.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TimeDataUtil.Test" Source="TimeDataUtil.Test\TimeDataUtil.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Scheduler.Extension" Source="Scheduler.Extension\Scheduler.Extension.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Scheduler.Extension" Source="Scheduler.Extension\Scheduler.Extension.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="MindLibAllWithTests.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MindLibAllWithTests.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ClassEnum.Test" Source="ClassEnum.Test\ClassEnum.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CollectionWrappers.Test" Source="CollectionWrappers.Test\CollectionWrappers.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="GenClassLib.Test" Source="GenClassLib.Test\GenClassLib.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="MiscNHibernateUserTypes.Test" Source="MiscNHibernateUserTypes.Test\MiscNHibernateUserTypes.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="GenControlLib.Test.MockDomain" Source="GenControlLib.Test.MockDomain\GenControlLib.Test.MockDomain.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Scheduler.Test" Source="Scheduler.Test\Scheduler.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SingletonUtil.Test" Source="SingletonUtil.Test\SingletonUtil.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TimeDataUtil.Test" Source="TimeDataUtil.Test\TimeDataUtil.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

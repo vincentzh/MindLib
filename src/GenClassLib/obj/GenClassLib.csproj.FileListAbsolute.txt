@@ -32,3 +32,10 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenClassLib\obj\Debug\MindHar
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenClassLib\bin\Debug\MindHarbor.GenClassLib.XML
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenClassLib\bin\Debug\Iesi.Collections.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenClassLib\obj\Release\MindHarbor.GenClassLib.Configuration.ecatalog-configuration.xsd
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.GenClassLib.XML
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.GenClassLib.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenClassLib\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenClassLib\obj\Release\MindHarbor.GenClassLib.Configuration.ecatalog-configuration.xsd
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenClassLib\obj\Release\MindHarbor.GenClassLib.Data.CountriesDataTable.resources
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenClassLib\obj\Release\GenClassLib.csproj.GenerateResource.Cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenClassLib\obj\Release\MindHarbor.GenClassLib.dll

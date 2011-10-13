@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly : AssemblyConfiguration("")]
 [assembly : AssemblyCompany("MindHarbor Inc")]
 [assembly : AssemblyProduct("CollectionWrappers.Test")]
-[assembly : AssemblyCopyright("Copyright © MindHarbor Inc 2006")]
+[assembly : AssemblyCopyright("Copyright ?MindHarbor Inc 2006")]
 [assembly : AssemblyTrademark("")]
 [assembly : AssemblyCulture("")]
 

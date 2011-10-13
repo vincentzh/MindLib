@@ -37,3 +37,9 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MiscNHibernateUserTypes\obj\D
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MiscNHibernateUserTypes\obj\Debug\MindHarbor.MiscNHibernateUserTypes.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MiscNHibernateUserTypes\bin\Debug\Iesi.Collections.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\MiscNHibernateUserTypes\bin\Debug\NHibernate.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.MiscNHibernateUserTypes.XML
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.MiscNHibernateUserTypes.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.MiscNHibernateUserTypes.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\MiscNHibernateUserTypes\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\MiscNHibernateUserTypes\obj\Release\MindHarbor.MiscNHibernateUserTypes.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\MiscNHibernateUserTypes\obj\Release\MindHarbor.MiscNHibernateUserTypes.pdb

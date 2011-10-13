@@ -109,7 +109,7 @@ namespace MindHarbor.TimeDataUtil {
 			return Create(start, end);
 		}
 
-		///<summary>
+	    ///<summary>
 		///
 		///            Write an instance of the mapped class to a prepared statement.
 		///            Implementors should handle possibility of null values.
@@ -121,7 +121,8 @@ namespace MindHarbor.TimeDataUtil {
 		///<param name="value"></param>
 		///<param name="index"></param>
 		///<param name="session"></param>
-		public void NullSafeSet(IDbCommand cmd, object value, int index, ISessionImplementor session) {
+		public void NullSafeSet(IDbCommand cmd, object value, int index, bool[] settable, ISessionImplementor session)
+		{
 			T dr = (T) value;
 			if (value == null) {
 				NHibernateUtil.DateTime.NullSafeSet(cmd, NullRangeStart, index, session);

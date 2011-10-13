@@ -16,3 +16,8 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers\bin\Debug\
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers\obj\Debug\MindHarbor.CollectionWrappers.dll
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers\obj\Debug\MindHarbor.CollectionWrappers.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\CollectionWrappers\bin\Debug\Iesi.Collections.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.CollectionWrappers.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.CollectionWrappers.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\CollectionWrappers\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\CollectionWrappers\obj\Release\MindHarbor.CollectionWrappers.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\CollectionWrappers\obj\Release\MindHarbor.CollectionWrappers.pdb

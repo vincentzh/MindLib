@@ -24,3 +24,9 @@ d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\TimeDataUtil\obj\Debug\MindHa
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\TimeDataUtil\obj\Debug\MindHarbor.TimeDataUtil.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\TimeDataUtil\bin\Debug\NHibernate.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\TimeDataUtil\bin\Debug\Iesi.Collections.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.TimeDataUtil.XML
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.TimeDataUtil.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.TimeDataUtil.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\TimeDataUtil\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\TimeDataUtil\obj\Release\MindHarbor.TimeDataUtil.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\TimeDataUtil\obj\Release\MindHarbor.TimeDataUtil.pdb

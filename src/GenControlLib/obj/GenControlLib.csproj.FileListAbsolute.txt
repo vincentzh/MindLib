@@ -31,3 +31,6 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib\obj\Debug\MindH
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib\bin\Debug\Antlr3.Runtime.dll
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib\bin\Debug\Iesi.Collections.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenControlLib\bin\Debug\NHibernate.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.GenControlLib.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenControlLib\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenControlLib\obj\Release\MindHarbor.GenControlLib.dll

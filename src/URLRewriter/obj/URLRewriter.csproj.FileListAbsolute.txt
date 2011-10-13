@@ -7,3 +7,6 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\bin\Release\MindH
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\obj\Release\ResolveAssemblyReference.cache
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\URLRewriter\obj\Release\MindHarbor.URLRewriter.dll
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\bin\MindHarbor.URLRewriter.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.URLRewriter.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\URLRewriter\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\URLRewriter\obj\Release\MindHarbor.URLRewriter.dll

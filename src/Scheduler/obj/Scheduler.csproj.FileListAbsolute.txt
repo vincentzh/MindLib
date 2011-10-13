@@ -19,3 +19,8 @@ d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\Scheduler\obj\Release\MindHar
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\Scheduler\obj\Release\MindHarbor.Scheduler.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\Scheduler\bin\Debug\NHibernate.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\Scheduler\bin\Debug\Iesi.Collections.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.Scheduler.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.Scheduler.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\Scheduler\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\Scheduler\obj\Release\MindHarbor.Scheduler.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\Scheduler\obj\Release\MindHarbor.Scheduler.pdb

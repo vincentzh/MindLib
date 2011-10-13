@@ -26,3 +26,9 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ClassEnum\obj\Debug\MindHarbo
 d:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ClassEnum\bin\Debug\Antlr3.Runtime.dll
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ClassEnum\bin\Debug\NHibernate.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\ClassEnum\bin\Debug\Iesi.Collections.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.ClassEnum.XML
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.ClassEnum.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.ClassEnum.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ClassEnum\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ClassEnum\obj\Release\MindHarbor.ClassEnum.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\ClassEnum\obj\Release\MindHarbor.ClassEnum.pdb

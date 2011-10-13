@@ -1,4 +1,5 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
@@ -26,6 +27,24 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/MindHarbor.GenClassLib/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -48,6 +67,7 @@
     <WarningLevel>4</WarningLevel>
     <DebugType>full</DebugType>
     <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>..\..\bin\</OutputPath>
@@ -70,6 +90,7 @@
     <WarningLevel>4</WarningLevel>
     <DebugType>none</DebugType>
     <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EncryptionClassLibrary, Version=1.0.2251.34626, Culture=neutral">
@@ -174,21 +195,20 @@
     <Compile Include="XMLUtil\CompositeXmlMapperBase.cs" />
     <Compile Include="XMLUtil\DictionarySerializer.cs" />
     <Compile Include="XMLUtil\GeneralCompositeXmlMapper.cs" />
-	<Compile Include="Configuration\Configuration.cs" />
-	<Compile Include="Configuration\ConfigurationManager.cs" />
-	<Compile Include="Configuration\ConfigurationSectionHandler.cs" />
-	<Compile Include="Configuration\ECatalogConfigurationElement.cs" />
-	<Compile Include="Configuration\ECatalogConfigurationException.cs" />
-	<Compile Include="Configuration\Property.cs" />
-	<Compile Include="Configuration\PropertyManager.cs" />
-	<Compile Include="Configuration\SettingElement.cs" />
-	<Compile Include="Configuration\XmlConstants.cs" />
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="Configuration\ConfigurationManager.cs" />
+    <Compile Include="Configuration\ConfigurationSectionHandler.cs" />
+    <Compile Include="Configuration\ECatalogConfigurationElement.cs" />
+    <Compile Include="Configuration\ECatalogConfigurationException.cs" />
+    <Compile Include="Configuration\Property.cs" />
+    <Compile Include="Configuration\PropertyManager.cs" />
+    <Compile Include="Configuration\SettingElement.cs" />
+    <Compile Include="Configuration\XmlConstants.cs" />
     <EmbeddedResource Include="Data\CountriesDataTable.resx">
       <DependentUpon>CountriesDataTable.cs</DependentUpon>
     </EmbeddedResource>
-	
   </ItemGroup>
-    <ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="Configuration\ecatalog-configuration.xsd" />
     <None Include="Configuration\ecatalog-configuration.xsx">
       <DependentUpon>ecatalog-configuration.xsd</DependentUpon>
@@ -199,6 +219,23 @@
       <Project>{41B7AC24-249C-4830-BE7D-275767996B34}</Project>
       <Name>GenInterfaces</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

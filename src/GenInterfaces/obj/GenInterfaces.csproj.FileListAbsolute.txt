@@ -13,3 +13,8 @@ D:\SourceCode\OpenSource\MindLib\trunk\MindLib\bin\MindHarbor.GenlInterfaces.pdb
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenInterfaces\obj\Release\ResolveAssemblyReference.cache
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenInterfaces\obj\Release\MindHarbor.GenlInterfaces.dll
 D:\SourceCode\OpenSource\MindLib\trunk\MindLib\src\GenInterfaces\obj\Release\MindHarbor.GenlInterfaces.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.GenlInterfaces.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\bin\MindHarbor.GenlInterfaces.pdb
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenInterfaces\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenInterfaces\obj\Release\MindHarbor.GenlInterfaces.dll
+D:\SourceCode\OpenSource\GitStuff\MindLib\src\GenInterfaces\obj\Release\MindHarbor.GenlInterfaces.pdb

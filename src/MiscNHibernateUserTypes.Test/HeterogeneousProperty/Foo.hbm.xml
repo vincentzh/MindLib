@@ -10,7 +10,7 @@
 			<composite-element class="MindHarbor.MiscNHibernateUserTypes.HeterogeneousProperty,MindHarbor.MiscNHibernateUserTypes">
 				<property name="Name"  />
 				<property name="StringValue" access="field.camelcase" />
-				<property name="ValueType" />
+                <property name="ValueType" />
 			</composite-element>
 		</map>
 	</class>

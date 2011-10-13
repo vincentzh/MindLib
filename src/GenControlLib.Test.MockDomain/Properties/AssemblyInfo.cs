@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly : AssemblyConfiguration("")]
 [assembly : AssemblyCompany("MH")]
 [assembly : AssemblyProduct("GenClassLib.Test.MockDomain")]
-[assembly : AssemblyCopyright("Copyright © MH 2006")]
+[assembly : AssemblyCopyright("Copyright ?MH 2006")]
 [assembly : AssemblyTrademark("")]
 [assembly : AssemblyCulture("")]
 

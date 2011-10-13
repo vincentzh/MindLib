@@ -1,28 +1,15 @@
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace MindHarbor.MiscNHibernateUserTypes.Test.HeterogeneousProperty {
-	using HeterogeneousProperty = MindHarbor.MiscNHibernateUserTypes.HeterogeneousProperty;
+namespace MindHarbor.MiscNHibernateUserTypes.Test.HeterogeneousProperty
+{
 	public class Foo
 	{
-		private int id;
+		private readonly IDictionary<string, MiscNHibernateUserTypes.HeterogeneousProperty> props =
+				new Dictionary<string, MiscNHibernateUserTypes.HeterogeneousProperty>();
 
-		private string password;
+		public int Id { get; set; }
 
-		public int Id
-		{
-			get { return id; }
-			set { id = value; }
-		}
-
-		public string Password
-		{
-			get { return password; }
-			set { password = value; }
-		}
-
-		private IDictionary<string, HeterogeneousProperty> props = new Dictionary<string, HeterogeneousProperty>();
+		public string Password { get; set; }
 
 		public HeterogeneousPropertyDict Props
 		{

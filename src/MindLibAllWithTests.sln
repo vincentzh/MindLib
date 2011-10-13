@@ -1,87 +1,38 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B35F239D-7A20-4F0C-90BE-C238BCBFC57F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenInterfaces", "GenInterfaces\GenInterfaces.csproj", "{41B7AC24-249C-4830-BE7D-275767996B34}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenClassLib", "GenClassLib\GenClassLib.csproj", "{37EC7A12-25DA-4FC2-87FF-F8585AE2BBFE}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenControlLib", "GenControlLib\GenControlLib.csproj", "{5424D080-E4DD-4EA9-97F0-5BA44272E79C}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionWrappers", "CollectionWrappers\CollectionWrappers.csproj", "{8D2C0714-CFA0-421B-917F-34AF0AB445BC}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonUtil", "SingletonUtil\SingletonUtil.csproj", "{B2E39DA3-6B28-42D4-8485-EEF183BE7D97}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassEnum", "ClassEnum\ClassEnum.csproj", "{35DFBE00-CA4C-4F7A-82A3-517FE840848D}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeDataUtil", "TimeDataUtil\TimeDataUtil.csproj", "{546584F8-2372-4690-BA5E-F2E4D3809036}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler", "Scheduler\Scheduler.csproj", "{659622A9-DADA-4967-949A-EF7BA47E968A}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscNHibernateUserTypes", "MiscNHibernateUserTypes\MiscNHibernateUserTypes.csproj", "{8E08B70C-95BA-40BE-B47C-A55A1BA90B37}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassEnum.Test", "ClassEnum.Test\ClassEnum.Test.csproj", "{B153B1E9-9E9D-4BCF-8CA7-5AE8FE5DA8A2}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionWrappers.Test", "CollectionWrappers.Test\CollectionWrappers.Test.csproj", "{A1CE265E-E196-4FF1-88C4-F791463FAB02}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenClassLib.Test", "GenClassLib.Test\GenClassLib.Test.csproj", "{099D3489-26E5-4528-BAB3-C545B35F7F18}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscNHibernateUserTypes.Test", "MiscNHibernateUserTypes.Test\MiscNHibernateUserTypes.Test.csproj", "{D72B9319-9077-4F90-9B6E-BA475B5B086B}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\GenControlLib.Test\", "GenControlLib.Test\", "{946D3268-0370-41AA-93F2-15760221EEA7}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GenControlLib.Test", "GenControlLib.Test\", "{946D3268-0370-41AA-93F2-15760221EEA7}"
 	ProjectSection(WebsiteProperties) = preProject
-		ProjectReferences = "{5424D080-E4DD-4EA9-97F0-5BA44272E79C}|MindHarbor.GenControlLib.dll;"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{5424D080-E4DD-4EA9-97F0-5BA44272E79C}|MindHarbor.GenControlLib.dll;{37EC7A12-25DA-4FC2-87FF-F8585AE2BBFE}|MindHarbor.GenClassLib.dll;{41B7AC24-249C-4830-BE7D-275767996B34}|MindHarbor.GenlInterfaces.dll;{B2E39DA3-6B28-42D4-8485-EEF183BE7D97}|MindHarbor.SingletonUtil.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/GenControlLib.Test"
 		Debug.AspNetCompiler.PhysicalPath = "GenControlLib.Test\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GenControlLib.Test\"
@@ -100,39 +51,19 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\GenControlLib.Test\"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenControlLib.Test.MockDomain", "GenControlLib.Test.MockDomain\GenControlLib.Test.MockDomain.csproj", "{7A12DA18-D8A6-4F5D-96EC-1A989203F73C}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Test", "Scheduler.Test\Scheduler.Test.csproj", "{F36A8474-4A45-4DF9-BCDA-F3756DEF736A}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonUtil.Test", "SingletonUtil.Test\SingletonUtil.Test.csproj", "{77249F84-AF4E-4889-BD81-68E9B3B6138D}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeDataUtil.Test", "TimeDataUtil.Test\TimeDataUtil.Test.csproj", "{82105587-E212-4048-AAE2-FBCB33608883}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Extension", "Scheduler.Extension\Scheduler.Extension.csproj", "{C81B6CDD-54A3-4CEB-97DD-1C4357A68D07}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B35F239D-7A20-4F0C-90BE-C238BCBFC57F}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "schema", "schema", "{5522F081-FC22-41D0-BCAC-D92B7BC1F203}"
+	ProjectSection(SolutionItems) = preProject
+		..\lib\NHibernate.Burrow\nhibernate-configuration.xsd = ..\lib\NHibernate.Burrow\nhibernate-configuration.xsd
+		..\lib\NHibernate.Burrow\nhibernate-mapping.xsd = ..\lib\NHibernate.Burrow\nhibernate-mapping.xsd
 	EndProjectSection
 EndProject
 Global
@@ -275,16 +206,16 @@ Global
 		{D72B9319-9077-4F90-9B6E-BA475B5B086B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D72B9319-9077-4F90-9B6E-BA475B5B086B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D72B9319-9077-4F90-9B6E-BA475B5B086B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|.NET.ActiveCfg = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|.NET.Build.0 = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|Any CPU.ActiveCfg = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|Mixed Platforms.Build.0 = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|.NET.ActiveCfg = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|.NET.Build.0 = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|Any CPU.ActiveCfg = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
-		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{946D3268-0370-41AA-93F2-15760221EEA7}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 		{7A12DA18-D8A6-4F5D-96EC-1A989203F73C}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{7A12DA18-D8A6-4F5D-96EC-1A989203F73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A12DA18-D8A6-4F5D-96EC-1A989203F73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -343,11 +274,11 @@ Global
 		{B153B1E9-9E9D-4BCF-8CA7-5AE8FE5DA8A2} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
 		{A1CE265E-E196-4FF1-88C4-F791463FAB02} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
 		{099D3489-26E5-4528-BAB3-C545B35F7F18} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
+		{D72B9319-9077-4F90-9B6E-BA475B5B086B} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
+		{946D3268-0370-41AA-93F2-15760221EEA7} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
+		{7A12DA18-D8A6-4F5D-96EC-1A989203F73C} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
 		{F36A8474-4A45-4DF9-BCDA-F3756DEF736A} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
 		{77249F84-AF4E-4889-BD81-68E9B3B6138D} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
 		{82105587-E212-4048-AAE2-FBCB33608883} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
-		{D72B9319-9077-4F90-9B6E-BA475B5B086B} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
-		{7A12DA18-D8A6-4F5D-96EC-1A989203F73C} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
-		{946D3268-0370-41AA-93F2-15760221EEA7} = {B35F239D-7A20-4F0C-90BE-C238BCBFC57F}
 	EndGlobalSection
 EndGlobal

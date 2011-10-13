@@ -1,84 +1,69 @@
-2009-07-24 16:06:49,296 [7] ERROR MindHarbor.SchedulerLogger [(null)] <(null)> - WARRNING: Schedule  Interval Mock Task has an interval less than 30 seconds
-2009-07-24 16:06:49,593 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 16:06:49,609 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Weekly Mock Task.
-2009-07-24 16:06:49,609 [10] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task triggered
-2009-07-24 16:06:49,609 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Daily Mock Task.
-2009-07-24 16:06:49,609 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task triggered
-2009-07-24 16:06:49,640 [9] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 16:06:49,640 [9] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 16:06:49,640 [9] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 16:06:49,656 [10] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task done
-2009-07-24 16:06:49,656 [9] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 16:06:49,656 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task done
-2009-07-24 16:06:50,031 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 16:06:50,031 [12] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 16:06:50,031 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 16:06:50,031 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 16:06:50,031 [12] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 16:06:51,046 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 16:06:51,046 [13] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 16:06:51,046 [13] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 16:06:51,046 [13] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 16:06:51,046 [13] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 16:06:52,078 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 16:06:52,093 [14] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 16:06:52,093 [14] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 16:06:52,093 [14] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 16:06:52,093 [14] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 16:06:53,046 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 16:06:53,046 [15] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 16:06:53,046 [15] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 16:06:53,046 [15] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 16:06:53,046 [15] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 16:06:54,062 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 16:06:54,062 [16] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 16:06:54,062 [16] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 16:06:54,062 [16] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 16:06:54,078 [16] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 16:06:55,062 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 16:06:55,062 [17] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 16:06:55,062 [17] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 16:06:55,062 [17] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 16:06:55,062 [17] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 17:35:29,031 [10] ERROR MindHarbor.SchedulerLogger [(null)] <(null)> - WARRNING: Schedule  Interval Mock Task has an interval less than 30 seconds
-2009-07-24 17:35:29,234 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 17:35:29,234 [7] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 17:35:29,250 [7] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 17:35:29,250 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Weekly Mock Task.
-2009-07-24 17:35:29,250 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task triggered
-2009-07-24 17:35:29,250 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Daily Mock Task.
-2009-07-24 17:35:29,250 [7] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 17:35:29,250 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task done
-2009-07-24 17:35:29,250 [7] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 17:35:29,250 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task triggered
-2009-07-24 17:35:29,250 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task done
-2009-07-24 17:35:29,734 [9] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 17:35:29,734 [13] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 17:35:29,734 [13] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 17:35:29,734 [13] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 17:35:29,734 [13] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 17:35:30,750 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 17:35:30,750 [14] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 17:35:30,750 [14] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 17:35:30,750 [14] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 17:35:30,750 [14] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 17:35:31,750 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 17:35:31,750 [15] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 17:35:31,750 [15] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 17:35:31,750 [15] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 17:35:31,750 [15] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 17:35:32,734 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 17:35:32,750 [16] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 17:35:32,750 [16] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 17:35:32,750 [16] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 17:35:32,750 [16] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 17:35:33,765 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 17:35:33,781 [17] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 17:35:33,781 [17] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 17:35:33,781 [17] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 17:35:33,781 [17] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
-2009-07-24 17:35:34,765 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
-2009-07-24 17:35:34,765 [18] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
-2009-07-24 17:35:34,765 [18] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
-2009-07-24 17:35:34,765 [18] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
-2009-07-24 17:35:34,765 [18] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:34,250 [7] ERROR MindHarbor.SchedulerLogger [(null)] <(null)> - WARRNING: Schedule  Interval Mock Task has an interval less than 30 seconds
+2011-10-13 17:23:34,359 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:34,375 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Weekly Mock Task.
+2011-10-13 17:23:34,375 [9] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:34,375 [9] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:34,375 [9] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:34,375 [9] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:34,375 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task triggered
+2011-10-13 17:23:34,375 [10] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Daily Mock Task.
+2011-10-13 17:23:34,375 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task done
+2011-10-13 17:23:34,390 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task triggered
+2011-10-13 17:23:34,390 [10] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:34,390 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task done
+2011-10-13 17:23:34,390 [13] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:34,390 [13] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:34,390 [13] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:34,390 [13] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:34,390 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:34,390 [14] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:34,390 [14] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:34,390 [14] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:34,390 [14] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:37,046 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:37,046 [15] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:37,046 [15] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:37,046 [15] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:37,046 [15] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:38,046 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:38,046 [16] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:38,046 [16] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:38,046 [16] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:38,046 [16] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:39,046 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:39,046 [17] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:39,046 [17] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:39,046 [17] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:39,046 [17] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:40,046 [10] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:40,046 [18] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:40,046 [18] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:40,046 [18] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:40,046 [18] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:46,796 [7] ERROR MindHarbor.SchedulerLogger [(null)] <(null)> - WARRNING: Schedule  Interval Mock Task has an interval less than 30 seconds
+2011-10-13 17:23:46,906 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:46,906 [7] ERROR MindHarbor.SchedulerLogger [(null)] <(null)> - WARRNING: Schedule  ShutDown Mock Task has an interval less than 30 seconds
+2011-10-13 17:23:46,906 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Weekly Mock Task.
+2011-10-13 17:23:46,906 [10] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task triggered
+2011-10-13 17:23:46,906 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  ShutDown Mock Task.
+2011-10-13 17:23:46,906 [9] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on pre trigger for schedule  Interval Mock Task
+2011-10-13 17:23:46,906 [9] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task triggered
+2011-10-13 17:23:46,906 [10] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Weekly Mock Task - Task done
+2011-10-13 17:23:46,921 [9] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Interval Mock Task - Task done
+2011-10-13 17:23:46,921 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  ShutDown Mock Task - Task triggered
+2011-10-13 17:23:46,921 [9] INFO  MockInterceptorLogger [(null)] <(null)> - MockInterceptor2 called on post trigger for schedule  Interval Mock Task
+2011-10-13 17:23:46,921 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Daily Mock Task.
+2011-10-13 17:23:46,921 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task triggered
+2011-10-13 17:23:46,921 [11] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - 
+
+*****************************
+****** Scheduler Shutdown*****
+*****************************
+2011-10-13 17:23:46,921 [12] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> -  Daily Mock Task - Task done
+2011-10-13 17:23:53,140 [7] ERROR MindHarbor.SchedulerLogger [(null)] <(null)> - WARRNING: Schedule  Interval Mock Task has an interval less than 30 seconds
+2011-10-13 17:23:53,250 [8] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - Start to trigger the schedule:  Interval Mock Task.
+2011-10-13 17:23:53,265 [7] INFO  MindHarbor.SchedulerLogger [(null)] <(null)> - 
+
+*****************************
+****** Scheduler Shutdown*****
+*****************************

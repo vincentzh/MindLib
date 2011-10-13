@@ -6,6 +6,7 @@ using NHibernate.SqlTypes;
 using NHibernate.Type;
 using NHibernate.UserTypes;
 
+
 namespace MindHarbor.SingletonUtil{
     /// <summary>
     /// A Hibernate userType for singleton value
