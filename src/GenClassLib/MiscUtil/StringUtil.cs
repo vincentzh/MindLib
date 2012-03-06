@@ -80,6 +80,7 @@ namespace MindHarbor.GenClassLib.MiscUtil {
 			sb.Replace("\r\n", "<br />");
 			sb.Replace("\t", "    ");
 			sb.Replace("  ", " &nbsp;");
+			sb.Replace("\n","<br/>");
 			return sb.ToString();
 		}
 
