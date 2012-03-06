@@ -1,4 +1,4 @@
-using MindHarbor.GenClassLib.MiscUtil;
+﻿using MindHarbor.GenClassLib.MiscUtil;
 using NUnit.Framework;
 
 namespace MindHarbor.GenClassLib.Test.MiscUtilTests {

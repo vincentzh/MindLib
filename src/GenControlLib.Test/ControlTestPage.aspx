@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ControlTestPage.aspx.cs" Inherits="ControlTestPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ControlTestPage.aspx.cs" Inherits="ControlTestPage" %>
 
    <%@ Register Assembly="MindHarbor.GenControlLib" Namespace="MindHarbor.GenControlLib"   TagPrefix="cc1" %>
 

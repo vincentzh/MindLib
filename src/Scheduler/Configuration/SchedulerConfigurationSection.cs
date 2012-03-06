@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Configuration;
 
 namespace MindHarbor.Scheduler.Configuration {

@@ -1,4 +1,4 @@
-namespace MindHarbor.MiscNHibernateUserTypes.Test {
+﻿namespace MindHarbor.MiscNHibernateUserTypes.Test {
 	public class MockPersistantClass {
 		private int id;
 

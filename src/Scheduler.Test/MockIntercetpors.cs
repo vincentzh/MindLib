@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using log4net;
 
 namespace MindHarbor.Scheduler.Test {

@@ -1,4 +1,4 @@
-namespace MindHarbor.Scheduler {
+﻿namespace MindHarbor.Scheduler {
 	public interface IInterceptor {
 		/// <summary>
 		/// Called on <see cref="Schedule.PreTrigger"/>

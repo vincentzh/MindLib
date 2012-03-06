@@ -1,4 +1,4 @@
-namespace MindHarbor.SingletonUtil.Test {
+﻿namespace MindHarbor.SingletonUtil.Test {
 	public class MockPersistantWithSingleton {
 		private int id;
 

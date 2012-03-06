@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="TaskManagerUC.ascx.cs"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="TaskManagerUC.ascx.cs"
     Inherits="Controls_TaskManagerUC" %>
 <%@ Register Src="TaskLogViewer.ascx" TagName="TaskLogViewer" TagPrefix="uc1" %>
 <asp:UpdatePanel ID="upMain" runat="server" UpdateMode="Conditional">

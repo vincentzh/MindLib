@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.MessageBoard {
+﻿namespace MindHarbor.GenClassLib.MessageBoard {
 	///<summary>
 	/// A filte that only accept message of the specific <typeparamref name="T"/>  
 	///</summary>

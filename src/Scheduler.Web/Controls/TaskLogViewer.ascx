@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="TaskLogViewer.ascx.cs"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="TaskLogViewer.ascx.cs"
     Inherits="Scheduler_TaskLogViewer" %>
 <asp:UpdatePanel ID="upMain" runat="server" UpdateMode="conditional">
     <ContentTemplate>

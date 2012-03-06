@@ -1,4 +1,4 @@
-using System.Data;
+﻿using System.Data;
 using MindHarbor.GenClassLib.MiscUtil;
 using NUnit.Framework;
 

@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.ImpactReport {
+﻿namespace MindHarbor.GenClassLib.ImpactReport {
 	/// <summary>
 	/// Impact that update other entity
 	/// </summary>

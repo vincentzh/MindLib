@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="gs-configuration" targetNamespace="urn:gs-configuration-1.0" xmlns="urn:gs-configuration-1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:NS="urn:gs-configuration-1.0">
 	<xs:element name="property">
 		<xs:complexType>

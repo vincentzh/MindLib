@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.XMLUtil {
+﻿namespace MindHarbor.GenClassLib.XMLUtil {
 	/// <summary>
 	/// Summary description for GeneralCompositeXmlMapper.
 	/// </summary>

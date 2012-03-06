@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="PercentageBar.ascx.cs"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="PercentageBar.ascx.cs"
     Inherits="PercentageBar" %>
 
 <table cellpadding="0" cellspacing="0" width="100%">

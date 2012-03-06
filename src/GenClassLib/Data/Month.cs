@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.Data {
+﻿namespace MindHarbor.GenClassLib.Data {
 	public enum MonthOfYear {
 		January = 1,
 		February = 2,

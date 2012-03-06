@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Iesi.Collections.Generic;
 
 namespace MindHarbor.GenClassLib.MessageBoard {

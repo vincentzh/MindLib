@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Iesi.Collections.Generic;
 
 namespace MindHarbor.CollectionWrappers {

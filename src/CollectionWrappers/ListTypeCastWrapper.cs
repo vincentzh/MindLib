@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace MindHarbor.CollectionWrappers {
 	public class ListTypeCastWrapper<TargetT, ToCastT> : CollectionTypeWrapper<TargetT, ToCastT>, IList<TargetT>

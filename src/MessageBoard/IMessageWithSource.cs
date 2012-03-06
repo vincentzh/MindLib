@@ -1,4 +1,4 @@
-namespace MindHarbor.MessageBoard {
+﻿namespace MindHarbor.MessageBoard {
 	///<summary>
 	/// Message that includes Source information
 	///</summary>

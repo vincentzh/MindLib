@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace MindHarbor.ClassEnum.Test {
 	public class MockEnum1 : ClassEnumGeneric<MockEnum1> {

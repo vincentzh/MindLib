@@ -1,4 +1,4 @@
-<TemplatesExport>
+﻿<TemplatesExport>
   <Template uid="fa2c1aa8-2d98-4fc9-86b6-517e71263b50" shortcut="single" description="Singleton Simple" text="private static readonly $Class$ instance = new $Class$();&#xD;&#xA;public static   $Class$ Instance { get{ return instance;}}&#xD;&#xA;&#xD;&#xA;private $Class$(){}" reformat="True" shortenQualifiedReferences="True">
     <Context>
       <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />

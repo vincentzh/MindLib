@@ -1,4 +1,4 @@
-using MindHarbor.GenClassLib.Data;
+﻿using MindHarbor.GenClassLib.Data;
 using MindHarbor.GenControlLib.Bases;
 
 namespace MindHarbor.GenControlLib {

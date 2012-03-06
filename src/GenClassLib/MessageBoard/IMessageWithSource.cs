@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.MessageBoard {
+﻿namespace MindHarbor.GenClassLib.MessageBoard {
 	///<summary>
 	/// Message that includes Source information
 	///</summary>

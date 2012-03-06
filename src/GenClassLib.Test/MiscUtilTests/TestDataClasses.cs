@@ -1,4 +1,4 @@
-using MindHarbor.GenInterfaces;
+﻿using MindHarbor.GenInterfaces;
 
 namespace MindHarbor.GenClassLib.Test.MiscUtilTests {
 	public class Address : IAddressM {

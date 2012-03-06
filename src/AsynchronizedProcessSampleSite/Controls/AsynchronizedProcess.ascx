@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="AsynchronizedProcess.ascx.cs"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="AsynchronizedProcess.ascx.cs"
     Inherits="Controls_AsynchronizedProcess" %>
 <%@ Register Src="Msg.ascx" TagName="Msg" TagPrefix="uc2" %>
 <%@ Register Src="PercentageBar.ascx" TagName="PercentageBar" TagPrefix="uc1" %>

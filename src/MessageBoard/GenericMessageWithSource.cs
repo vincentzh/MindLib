@@ -1,4 +1,4 @@
-namespace MindHarbor.MessageBoard {
+﻿namespace MindHarbor.MessageBoard {
 	public class GenericMessageWithSource<SourcT> : IMessageWithSource {
 		private SourcT source;
 

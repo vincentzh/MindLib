@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.Configuration
+﻿namespace MindHarbor.GenClassLib.Configuration
 {
     public class Property
     {

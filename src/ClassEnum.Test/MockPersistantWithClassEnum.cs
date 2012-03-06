@@ -1,4 +1,4 @@
-namespace MindHarbor.ClassEnum.Test {
+﻿namespace MindHarbor.ClassEnum.Test {
 	public class MockPersistantWithClassEnum {
 		private int id;
 

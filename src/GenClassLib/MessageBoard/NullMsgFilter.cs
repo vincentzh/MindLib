@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.MessageBoard {
+﻿namespace MindHarbor.GenClassLib.MessageBoard {
 	/// <summary>
 	/// A filter that does not filter out any messages
 	/// </summary>

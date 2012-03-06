@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using MindHarbor.GenClassLib.ProgressTracking;
 using NUnit.Framework;
 

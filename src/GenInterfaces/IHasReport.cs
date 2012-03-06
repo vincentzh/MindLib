@@ -1,4 +1,4 @@
-namespace MindHarbor.GenInterfaces {
+﻿namespace MindHarbor.GenInterfaces {
 	public interface IHasReport {
 		void CreateReport();
 		string GetReportUrl();

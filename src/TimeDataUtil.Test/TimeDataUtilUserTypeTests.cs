@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using NHibernate;
 using NHibernate.Criterion;

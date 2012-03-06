@@ -1,4 +1,4 @@
-namespace MindHarbor.TimeDataUtil.Test {
+﻿namespace MindHarbor.TimeDataUtil.Test {
 	public class MockPersistantClass {
 		private int id;
 

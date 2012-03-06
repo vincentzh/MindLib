@@ -1,4 +1,4 @@
-namespace MindHarbor.SingletonUtil.Test {
+﻿namespace MindHarbor.SingletonUtil.Test {
 	public class StrategyA : IStrategy {}
 
 	public class StrategyB : IStrategy {

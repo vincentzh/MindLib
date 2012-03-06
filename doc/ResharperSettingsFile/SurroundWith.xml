@@ -1,4 +1,4 @@
-<TemplatesExport>
+﻿<TemplatesExport>
   <Template uid="090b1431-2feb-4ff4-bdf9-01aa4888732f" shortcut="" description="defaultNameSpace" text="namespace $NameSpace${&#xD;&#xA;$SELECTION$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
     <Context>
       <CSharpContext context="TypeAndNamespace" minimumLanguageVersion="2.0" />

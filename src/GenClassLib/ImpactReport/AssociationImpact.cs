@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.ImpactReport {
+﻿namespace MindHarbor.GenClassLib.ImpactReport {
 	/// <summary>
 	/// Impact to a association of the to-be-deleted
 	/// </summary>

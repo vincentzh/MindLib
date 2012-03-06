@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
@@ -12,6 +12,7 @@ namespace MindHarbor.ClassEnum {
 	/// Base class for ClassEnum UserType
 	/// </summary>
 	/// <typeparam name="EnumT"></typeparam>
+	[Serializable]
 	public class ClassEnumUserType<EnumT> : IUserType {
 		/// <summary>
 		/// The customer Type needed when in Nhibernate.Query.SetParameter()

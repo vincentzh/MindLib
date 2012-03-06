@@ -1,4 +1,4 @@
-namespace MindHarbor.MessageBoard {
+﻿namespace MindHarbor.MessageBoard {
 	/// <summary>
 	/// A generic message with a data object included
 	/// </summary>

@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.ImpactReport {
+﻿namespace MindHarbor.GenClassLib.ImpactReport {
 	/// <summary>
 	/// An interface for entities that has deletion impact and can generate furthur ImpactReport
 	/// </summary>

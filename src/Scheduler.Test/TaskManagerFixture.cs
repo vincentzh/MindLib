@@ -1,4 +1,4 @@
-using System.Threading;
+﻿using System.Threading;
 using MindHarbor.Scheduler.Exceptions;
 using NUnit.Framework;
 

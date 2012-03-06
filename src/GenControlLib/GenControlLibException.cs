@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace MindHarbor.GenControlLib {
 	public class GenControlLibException : Exception {

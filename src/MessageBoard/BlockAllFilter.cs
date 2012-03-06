@@ -1,4 +1,4 @@
-namespace MindHarbor.MessageBoard {
+﻿namespace MindHarbor.MessageBoard {
 	public class BlockAllFilter : IMessageFilter {
 		#region IMessageFilter Members
 

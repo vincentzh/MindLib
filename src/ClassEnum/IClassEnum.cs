@@ -1,4 +1,4 @@
-namespace MindHarbor.ClassEnum {
+﻿namespace MindHarbor.ClassEnum {
 	/// <summary>
 	/// The type safe Enumeration pattern 
 	/// </summary>

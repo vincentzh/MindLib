@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace MindHarbor.Scheduler.Test {
 	public abstract class MockTaskBase : Task {

@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.MessageBoard {
+﻿namespace MindHarbor.GenClassLib.MessageBoard {
 	///<summary>
 	/// A message broadcaster that works as an intermedia that can broadcast messages to all subscribers
 	///</summary>

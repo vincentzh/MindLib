@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.ImpactReport {
+﻿namespace MindHarbor.GenClassLib.ImpactReport {
 	/// <summary>
 	///  impact that delete other entity
 	/// </summary>

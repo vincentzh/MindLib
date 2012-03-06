@@ -1,4 +1,4 @@
-namespace MindHarbor.MessageBoard {
+﻿namespace MindHarbor.MessageBoard {
 	///<summary>
 	/// A message broadcaster that works as an intermedia that can broadcast messages to all subscribers
 	///</summary>

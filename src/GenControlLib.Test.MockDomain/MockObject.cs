@@ -1,4 +1,4 @@
-namespace MindHarbor.GenControlLib.Test.MockDomain {
+﻿namespace MindHarbor.GenControlLib.Test.MockDomain {
 	/// <summary>
 	/// Summary description for MockObject
 	/// </summary>

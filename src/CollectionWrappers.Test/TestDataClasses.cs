@@ -1,4 +1,4 @@
-namespace MindHarbor.CollectionWrappers.Test {
+﻿namespace MindHarbor.CollectionWrappers.Test {
 	public class Foo {
 		private Bar myVar;
 

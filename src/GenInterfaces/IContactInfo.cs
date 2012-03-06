@@ -1,4 +1,4 @@
-namespace MindHarbor.GenInterfaces {
+﻿namespace MindHarbor.GenInterfaces {
 	public interface IContactInfo {
 		IAddress Address { get; }
 		string FirstName { get; }

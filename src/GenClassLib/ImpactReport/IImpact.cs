@@ -1,4 +1,4 @@
-using Iesi.Collections.Generic;
+﻿using Iesi.Collections.Generic;
 
 namespace MindHarbor.GenClassLib.ImpactReport {
 	/// <summary>

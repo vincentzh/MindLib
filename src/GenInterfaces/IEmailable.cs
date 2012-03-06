@@ -1,4 +1,4 @@
-namespace MindHarbor.GenInterfaces {
+﻿namespace MindHarbor.GenInterfaces {
 	/// <summary>
 	/// Summary description for IEmailable.
 	/// </summary>

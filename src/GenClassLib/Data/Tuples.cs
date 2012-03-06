@@ -1,4 +1,4 @@
-namespace MindHarbor.GenClassLib.Data {
+﻿namespace MindHarbor.GenClassLib.Data {
 	public static class Tuples {
 		///<summary>
 		///</summary>

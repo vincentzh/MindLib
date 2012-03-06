@@ -1,4 +1,4 @@
-namespace MindHarbor.MessageBoard {
+﻿namespace MindHarbor.MessageBoard {
 	/// <summary>
 	/// A filter that does not filter out any messages
 	/// </summary>

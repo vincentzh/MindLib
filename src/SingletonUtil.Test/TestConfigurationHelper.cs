@@ -1,4 +1,4 @@
-namespace NHibernate.Test
+﻿namespace NHibernate.Test
 {
 	using System;
 	using System.IO;

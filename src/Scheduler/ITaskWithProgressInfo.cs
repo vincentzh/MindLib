@@ -1,4 +1,4 @@
-namespace MindHarbor.Scheduler {
+﻿namespace MindHarbor.Scheduler {
 	public interface ITaskWithProgressInfo : ITask {
 		float PercentageProgress { get; }
 	}

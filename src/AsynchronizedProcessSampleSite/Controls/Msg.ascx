@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Msg.ascx.cs" Inherits="GeneralControl_Msg" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Msg.ascx.cs" Inherits="GeneralControl_Msg" %>
 
 <asp:UpdatePanel ID="upMain" runat="server" UpdateMode="conditional">
     <ContentTemplate>

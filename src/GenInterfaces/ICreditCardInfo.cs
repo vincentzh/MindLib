@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace MindHarbor.GenInterfaces {
 	public interface ICreditCardInfo {
