@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Iesi.Collections.Generic;
 
 namespace MindHarbor.CollectionWrappers {
 	/// <summary>
@@ -23,10 +22,10 @@ namespace MindHarbor.CollectionWrappers {
 		}
 
 	public class SearchableSetDecorator<PropT, CollectionItemT> : SearchableCollectionDecoratorBase<PropT, CollectionItemT>,
-	                                                              ISet<CollectionItemT> where CollectionItemT : class {
-		protected readonly ISet<CollectionItemT> innerCollection;
+	                                                              Iesi.Collections.Generic.ISet<CollectionItemT> where CollectionItemT : class {
+		protected readonly Iesi.Collections.Generic.ISet<CollectionItemT> innerCollection;
 
-		public SearchableSetDecorator(ISet<CollectionItemT> innerCollection, string searchPropertyName)
+		public SearchableSetDecorator(Iesi.Collections.Generic.ISet<CollectionItemT> innerCollection, string searchPropertyName)
 			: base(searchPropertyName) {
 			this.innerCollection = innerCollection;
 		}
@@ -37,19 +36,19 @@ namespace MindHarbor.CollectionWrappers {
 
 		#region ISet<CollectionItemT> Members
 
-		public ISet<CollectionItemT> Union(ISet<CollectionItemT> a) {
+		public Iesi.Collections.Generic.ISet<CollectionItemT> Union(Iesi.Collections.Generic.ISet<CollectionItemT> a) {
 			return innerCollection.Union(a);
 		}
 
-		public ISet<CollectionItemT> Intersect(ISet<CollectionItemT> a) {
+		public Iesi.Collections.Generic.ISet<CollectionItemT> Intersect(Iesi.Collections.Generic.ISet<CollectionItemT> a) {
 			return innerCollection.Intersect(a);
 		}
 
-		public ISet<CollectionItemT> Minus(ISet<CollectionItemT> a) {
+		public Iesi.Collections.Generic.ISet<CollectionItemT> Minus(Iesi.Collections.Generic.ISet<CollectionItemT> a) {
 			return innerCollection.Minus(a);
 		}
 
-		public ISet<CollectionItemT> ExclusiveOr(ISet<CollectionItemT> a) {
+		public Iesi.Collections.Generic.ISet<CollectionItemT> ExclusiveOr(Iesi.Collections.Generic.ISet<CollectionItemT> a) {
 			return innerCollection.ExclusiveOr(a);
 		}
 
@@ -57,7 +56,7 @@ namespace MindHarbor.CollectionWrappers {
 			return innerCollection.ContainsAll(c);
 		}
 
-		bool ISet<CollectionItemT>.Add(CollectionItemT o) {
+		bool Iesi.Collections.Generic.ISet<CollectionItemT>.Add(CollectionItemT o) {
 			return innerCollection.Add(o);
 		}
 
@@ -79,7 +78,7 @@ namespace MindHarbor.CollectionWrappers {
 
 		public object Clone() {
 			return
-				new SearchableSetDecorator<PropT, CollectionItemT>((ISet<CollectionItemT>) innerCollection.Clone(),
+				new SearchableSetDecorator<PropT, CollectionItemT>((Iesi.Collections.Generic.ISet<CollectionItemT>) innerCollection.Clone(),
 				                                                   SearchPropertyName);
 		}
 

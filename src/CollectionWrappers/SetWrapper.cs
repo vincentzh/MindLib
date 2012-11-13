@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Iesi.Collections;
 using Iesi.Collections.Generic;
 
+
 namespace MindHarbor.CollectionWrappers {
 	/// <summary>
 	/// A wrapper that can wrap a ISet as a generic ISet&lt;T&gt; 
@@ -17,7 +18,7 @@ namespace MindHarbor.CollectionWrappers {
 	/// <exception cref="InvalidCastException">
 	/// If the wrapped has any item that is not of Type T, InvalidCastException could be thrown at any time
 	/// </exception>
-	public sealed class SetWrapper<T> : ISet<T> {
+	public sealed class SetWrapper<T> : Iesi.Collections.Generic.ISet<T> {
 		private ISet innerSet;
 
 		private SetWrapper() {}
@@ -30,19 +31,19 @@ namespace MindHarbor.CollectionWrappers {
 
 		#region Operators
 
-		public ISet<T> Union(ISet<T> a) {
+		public Iesi.Collections.Generic.ISet<T> Union(Iesi.Collections.Generic.ISet<T> a) {
 			return getSetCopy().Union(a);
 		}
 
-		public ISet<T> Intersect(ISet<T> a) {
+		public Iesi.Collections.Generic.ISet<T> Intersect(Iesi.Collections.Generic.ISet<T> a) {
 			return getSetCopy().Intersect(a);
 		}
 
-		public ISet<T> Minus(ISet<T> a) {
+		public Iesi.Collections.Generic.ISet<T> Minus(Iesi.Collections.Generic.ISet<T> a) {
 			return getSetCopy().Minus(a);
 		}
 
-		public ISet<T> ExclusiveOr(ISet<T> a) {
+		public Iesi.Collections.Generic.ISet<T> ExclusiveOr(Iesi.Collections.Generic.ISet<T> a) {
 			return getSetCopy().ExclusiveOr(a);
 		}
 
@@ -134,7 +135,7 @@ namespace MindHarbor.CollectionWrappers {
 
 		#endregion
 
-		public ISet<T> Clone() {
+		public Iesi.Collections.Generic.ISet<T> Clone() {
 			return new SetWrapper<T>((ISet) innerSet.Clone());
 		}
 	}
