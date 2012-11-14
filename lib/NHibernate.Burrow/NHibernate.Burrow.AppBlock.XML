@@ -700,6 +700,30 @@
             <param name="session">The <see cref="T:NHibernate.ISession"/>.</param>
             <returns>The row count.</returns>
         </member>
+        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.ObjectWHashIdBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.ObjectWHashIdBase.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            <remarks>
+            overriden to use the HashId
+            This method is kept as virtual for ORM framework to dynamically create proxy
+            But it should never be overriden by developer
+            </remarks>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.ObjectWHashIdBase.BusinessKey">
+            <summary>
+            
+            </summary>
+            <remarks>
+            return the HashId
+            </remarks>
+        </member>
         <member name="T:NHibernate.Burrow.AppBlock.Pagination.NamedQueryRowsCounter">
             <summary>
             
@@ -1198,6 +1222,11 @@
         <member name="P:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Session">
             <summary>
             Gets the Nhibernate Session 
+            </summary>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.IntegerIdNBizKeyBase">
+            <summary>
+            Only work for Id is identity or native
             </summary>
         </member>
         <member name="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableRowsCounterQuery`1">
