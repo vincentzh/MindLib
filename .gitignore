@@ -1,5 +1,11 @@
 .svn
-bin
-obj
 *.resharper.user
 *.suo
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
