@@ -10,7 +10,7 @@ namespace MindHarbor.GenClassLib.Validation {
 	public class ValidationError {
 		private string _errorMessage;
 		private int _errorNumber = -1;
-
+        
 		public ValidationError() {}
 
 		public ValidationError(string errorMessage) {
@@ -22,8 +22,13 @@ namespace MindHarbor.GenClassLib.Validation {
 			ErrorNumber = errorNumber;
 		}
 
+	    public ValidationError(string item, string errorMessage)
+	    {
+	        Item = item;
+	        ErrorMessage = errorMessage;
+	    }
 		#region Properties
-
+        public string Item { get; set; }
 		public string ErrorMessage {
 			get { return _errorMessage; }
 			set { _errorMessage = value; }
