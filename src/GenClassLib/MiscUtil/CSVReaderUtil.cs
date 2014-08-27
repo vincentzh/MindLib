@@ -7,7 +7,7 @@ using LumenWorks.Framework.IO.Csv;
 
 namespace MindHarbor.GenClassLib.MiscUtil{
     /// <summary>
-    /// Summary description for CVSImporter.
+    /// CVSImporter a class that provides to import CVS files.
     /// </summary>
     public class CSVReaderUtil{
         #region DelimitedMode enum
@@ -26,24 +26,64 @@ namespace MindHarbor.GenClassLib.MiscUtil{
         private int maximumNumOfRows;
         private DelimitedMode mode;
 
+	/// <summary>
+	/// Contains File information 
+	/// </summary>
+	/// <param name="fullFilePath">File Path.</param>
+	/// <param name="DelimitedMode">m.</param>
+
         public CSVReaderUtil(string fullFilePath, DelimitedMode m){
             fi = new FileInfo(fullFilePath);
             GetRealMode(m);
         }
+
+	// <summary>
+	/// Get maximum number of rows in file and return intenger 
+	/// </summary>
+	/// <returns>maximumNumOfRows</returns>
+	/// <remarks>
+	/// Accessors.
+	/// </remarks>
 
         public int MaximumNumOfRows{
             get { return maximumNumOfRows; }
             set { maximumNumOfRows = value; }
         }
 
+	// <summary>
+	/// Sets and Gets Filter Expression. 
+	/// </summary>
+	/// <returns>filterExpression</returns>
+	/// <remarks>
+	/// Accessors.
+	/// </remarks>
+
         public string FilterExpression{
             get { return filterExpression; }
             set { filterExpression = value; }
         }
 
+	// <summary>
+	/// DataSet Read. 
+	/// </summary>
+	/// <returns>DataSet Read true</returns>
+	/// <remarks>
+	/// 
+	/// </remarks>
+
         public DataSet Read(){
             return Read(true);
         }
+
+	// <summary>
+	/// Read records and save them to a datatable 
+	/// </summary>
+	/// <param name="hasHeader">hasHeader.</param>
+	/// <param name="encoding">encoding.</param>
+	/// <returns>Dataset</returns>
+	/// <remarks>
+	/// 
+	/// </remarks>
 
         public DataSet Read(bool hasHeader, Encoding encoding){
             DataTable dt = new DataTable("Data");
@@ -81,6 +121,7 @@ namespace MindHarbor.GenClassLib.MiscUtil{
             ds.Tables.Add(dt);
             return ds;
         }
+
 
         public DataSet Read(bool hasHeader){
             return Read(hasHeader, Encoding.Default);
