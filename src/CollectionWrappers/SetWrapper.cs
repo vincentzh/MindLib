@@ -18,36 +18,18 @@ namespace MindHarbor.CollectionWrappers {
 	/// <exception cref="InvalidCastException">
 	/// If the wrapped has any item that is not of Type T, InvalidCastException could be thrown at any time
 	/// </exception>
-	public sealed class SetWrapper<T> : Iesi.Collections.Generic.ISet<T> {
-		private ISet innerSet;
+	public sealed class SetWrapper<T> : ISet<T> {
+		private ISet<T> innerSet;
 
 		private SetWrapper() {}
 
-		public SetWrapper(ISet toWrap) {
+		public SetWrapper(ISet<T> toWrap) {
 			if (toWrap == null)
 				throw new ArgumentNullException();
 			innerSet = toWrap;
 		}
 
-		#region Operators
-
-		public Iesi.Collections.Generic.ISet<T> Union(Iesi.Collections.Generic.ISet<T> a) {
-			return getSetCopy().Union(a);
-		}
-
-		public Iesi.Collections.Generic.ISet<T> Intersect(Iesi.Collections.Generic.ISet<T> a) {
-			return getSetCopy().Intersect(a);
-		}
-
-		public Iesi.Collections.Generic.ISet<T> Minus(Iesi.Collections.Generic.ISet<T> a) {
-			return getSetCopy().Minus(a);
-		}
-
-		public Iesi.Collections.Generic.ISet<T> ExclusiveOr(Iesi.Collections.Generic.ISet<T> a) {
-			return getSetCopy().ExclusiveOr(a);
-		}
-
-		#endregion
+		n
 
 		#region ISet<T> Members
 
@@ -56,7 +38,7 @@ namespace MindHarbor.CollectionWrappers {
 		}
 
 		public bool ContainsAll(ICollection<T> c) {
-			return innerSet.ContainsAll(getSetCopy(c));
+			return innerSet.Contains().ContainsAll(getSetCopy(c));
 		}
 
 		public bool IsEmpty {
@@ -67,7 +49,57 @@ namespace MindHarbor.CollectionWrappers {
 			return innerSet.Add(o);
 		}
 
-		public bool AddAll(ICollection<T> c) {
+	    public void UnionWith(IEnumerable<T> other)
+	    {
+	       innerSet.UnionWith(other); 
+	    }
+
+	    public void IntersectWith(IEnumerable<T> other)
+	    {
+	       innerSet.IntersectWith(other);
+	    }
+
+	    public void ExceptWith(IEnumerable<T> other)
+	    {
+	        innerSet.ExceptWith(other);
+	    }
+
+	    public void SymmetricExceptWith(IEnumerable<T> other)
+	    {
+	        innerSet.SymmetricExceptWith(other);
+	    }
+
+	    public bool IsSubsetOf(IEnumerable<T> other)
+	    {
+	        return innerSet.IsSubsetOf(other);
+	    }
+
+	    public bool IsSupersetOf(IEnumerable<T> other)
+	    {
+	        return innerSet.IsSupersetOf(other);
+	    }
+
+	    public bool IsProperSupersetOf(IEnumerable<T> other)
+	    {
+	        return innerSet.IsProperSupersetOf(other);
+	    }
+
+	    public bool IsProperSubsetOf(IEnumerable<T> other)
+	    {
+	        return innerSet.IsProperSubsetOf(other);
+	    }
+
+	    public bool Overlaps(IEnumerable<T> other)
+	    {
+	        return innerSet.Overlaps(other);
+	    }
+
+	    public bool SetEquals(IEnumerable<T> other)
+	    {
+	        return innerSet.SetEquals(other);
+	    }
+
+	    public bool AddAll(ICollection<T> c) {
 			return innerSet.AddAll(getSetCopy(c));
 		}
 

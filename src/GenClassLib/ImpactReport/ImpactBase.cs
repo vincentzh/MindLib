@@ -1,4 +1,5 @@
-﻿using Iesi.Collections.Generic;
+﻿using System.Collections.Generic;
+using Iesi.Collections.Generic;
 
 namespace MindHarbor.GenClassLib.ImpactReport {
 	/// <summary>
@@ -10,7 +11,7 @@ namespace MindHarbor.GenClassLib.ImpactReport {
 		/// <summary>
 		/// 
 		/// </summary>
-		protected ISet<IImpact> subItems = new HashedSet<IImpact>();
+		protected ISet<IImpact> subItems = new HashSet<IImpact>();
 
 		protected ImpactBase(string message) {
 			Message = message;
@@ -30,7 +31,7 @@ namespace MindHarbor.GenClassLib.ImpactReport {
 		/// Sub Impacts
 		/// </summary>
 		public ISet<IImpact> SubItems {
-			get { return new ImmutableSet<IImpact>(subItems); }
+			get { return new ReadOnlySet<IImpact>(subItems); }
 		}
 
 		#endregion

@@ -17,7 +17,7 @@ namespace MindHarbor.GenClassLib.MessageBoard {
 		/// </summary>
 		/// <param name="acceptedTypes">null acceptedTypes has the same effect as empty acceptedTypes, that is, no message will be accepted </param>
 		public SpecificTypesMessageFilter(IEnumerable<Type> acceptedTypes) {
-			this.acceptedTypes = new HashedSet<Type>();
+			this.acceptedTypes = new HashSet<Type>();
 			if (acceptedTypes != null)
 				foreach (Type type in acceptedTypes)
 					this.acceptedTypes.Add(type);

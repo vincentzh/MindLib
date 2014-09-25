@@ -81,10 +81,7 @@
     <Compile Include="EnumeratorWrapper.cs" />
     <Compile Include="ListWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchableChildrenCollection.cs" />
     <Compile Include="SearchableCollectionDecoratorBase.cs" />
-    <Compile Include="SearchableCollectionDecorator.cs" />
-    <Compile Include="SetWrapper.cs" />
     <Compile Include="Util\PropFieldReflection.cs" />
   </ItemGroup>
   <ItemGroup>

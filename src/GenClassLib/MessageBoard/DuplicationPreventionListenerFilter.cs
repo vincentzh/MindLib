@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Iesi.Collections.Generic;
 
 namespace MindHarbor.GenClassLib.MessageBoard {
@@ -6,7 +7,7 @@ namespace MindHarbor.GenClassLib.MessageBoard {
 	/// A listener filter to prevent a listener listen a message more than once
 	///</summary>
 	public class DuplicationPreventionListenerFilter : IListenerFilter {
-		private readonly ISet<IMessageListener> listenedListeners = new HashedSet<IMessageListener>();
+		private readonly ISet<IMessageListener> listenedListeners = new HashSet<IMessageListener>();
 		private readonly IMessage msg;
 
 		///<summary>

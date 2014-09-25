@@ -22,10 +22,10 @@ namespace MindHarbor.CollectionWrappers {
 		}
 
 	public class SearchableSetDecorator<PropT, CollectionItemT> : SearchableCollectionDecoratorBase<PropT, CollectionItemT>,
-	                                                              Iesi.Collections.Generic.ISet<CollectionItemT> where CollectionItemT : class {
-		protected readonly Iesi.Collections.Generic.ISet<CollectionItemT> innerCollection;
+	                                                              ISet<CollectionItemT> where CollectionItemT : class {
+		protected readonly ISet<CollectionItemT> innerCollection;
 
-		public SearchableSetDecorator(Iesi.Collections.Generic.ISet<CollectionItemT> innerCollection, string searchPropertyName)
+		public SearchableSetDecorator(ISet<CollectionItemT> innerCollection, string searchPropertyName)
 			: base(searchPropertyName) {
 			this.innerCollection = innerCollection;
 		}
@@ -60,7 +60,57 @@ namespace MindHarbor.CollectionWrappers {
 			return innerCollection.Add(o);
 		}
 
-		public bool AddAll(ICollection<CollectionItemT> c) {
+	    public void UnionWith(IEnumerable<CollectionItemT> other)
+	    {
+	       innerCollection.UnionWith(other); 
+	    }
+
+	    public void IntersectWith(IEnumerable<CollectionItemT> other)
+	    {
+	       innerCollection.IntersectWith(other);
+	    }
+
+	    public void ExceptWith(IEnumerable<CollectionItemT> other)
+	    {
+	        innerCollection.ExceptWith(other);
+	    }
+
+	    public void SymmetricExceptWith(IEnumerable<CollectionItemT> other)
+	    {
+	        
+	    }
+
+	    public bool IsSubsetOf(IEnumerable<CollectionItemT> other)
+	    {
+	        throw new System.NotImplementedException();
+	    }
+
+	    public bool IsSupersetOf(IEnumerable<CollectionItemT> other)
+	    {
+	        throw new System.NotImplementedException();
+	    }
+
+	    public bool IsProperSupersetOf(IEnumerable<CollectionItemT> other)
+	    {
+	        throw new System.NotImplementedException();
+	    }
+
+	    public bool IsProperSubsetOf(IEnumerable<CollectionItemT> other)
+	    {
+	        throw new System.NotImplementedException();
+	    }
+
+	    public bool Overlaps(IEnumerable<CollectionItemT> other)
+	    {
+	        throw new System.NotImplementedException();
+	    }
+
+	    public bool SetEquals(IEnumerable<CollectionItemT> other)
+	    {
+	        throw new System.NotImplementedException();
+	    }
+
+	    public bool AddAll(ICollection<CollectionItemT> c) {
 			return innerCollection.AddAll(c);
 		}
 
@@ -83,5 +133,14 @@ namespace MindHarbor.CollectionWrappers {
 		}
 
 		#endregion
+
+	    #region Implementation of ISet<CollectionItemT>
+
+	    public bool Add(CollectionItemT item)
+	    {
+	        throw new System.NotImplementedException();
+	    }
+
+	    #endregion
 	                                                              }
 }
