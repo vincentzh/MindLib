@@ -318,9 +318,18 @@
         </member>
         <member name="T:MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil">
             <summary>
-            Summary description for CVSImporter.
+            CVSImporter a class that provides to import CVS files.
             </summary>
         </member>
+        <member name="M:MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil.#ctor(System.String,MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil.DelimitedMode)">
+            <summary>
+            Contains File information 
+            </summary>
+            <param name="fullFilePath">File Path.</param>
+            <param name="DelimitedMode">m.</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil.Read" -->
+        <!-- Badly formed XML comment ignored for member "M:MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil.Read(System.Boolean,System.Text.Encoding)" -->
         <member name="M:MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil.GuessMatchSettingsFromColumns(System.Data.DataColumnCollection,System.Collections.Specialized.NameValueCollection)">
             <summary>
             Try to guess all the columns in a DataColumnCollection for a type's public properties
@@ -328,6 +337,8 @@
             <param name="columns"></param>
             <returns>return a NameValueCollection where name is the type's property name with a value of the guessed columnName</returns>
         </member>
+        <!-- Badly formed XML comment ignored for member "P:MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil.MaximumNumOfRows" -->
+        <!-- Badly formed XML comment ignored for member "P:MindHarbor.GenClassLib.MiscUtil.CSVReaderUtil.FilterExpression" -->
         <member name="T:MindHarbor.GenClassLib.Validation.ValidationException">
             <summary>
             Summary description for mmpireDomainException.
